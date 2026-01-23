@@ -139,10 +139,10 @@ export const experiences = [
   {
     id: 0,
     img: mernlogo,
-    role: "MERN Stack Developer- Self Learning",
+    role: "MERN Stack Developer",
     // company: "Webverse Digital   Hands-On Experience,",
-    date: "– Self Learning 2025 – Present ",
-    desc:" Self-learned full-stack web development using MongoDB, Express.js, React.js, and Node.js . Gained hands-on experience by building and deploying multiple MERN applications .Developed and consumed RESTful APIs .Implemented JWT authentication and role-based authorizationFocused on clean code, scalability, and best practicesWorked with Git & GitHub for version control and collaboration Deployed applications on Vercel, Netlify, and Render",
+    date: "–August 2025 – Present ",
+    desc:" full-stack web development using MongoDB, Express.js, React.js, and Node.js . Gained hands-on experience by building and deploying multiple MERN applications .Developed and consumed RESTful APIs .Implemented JWT authentication and role-based authorizationFocused on clean code, scalability, and best practicesWorked with Git & GitHub for version control and collaboration Deployed applications on Vercel, Netlify, and Render",
     skills: [
       "HTML",
       "CSS",
@@ -308,7 +308,7 @@ export const projects = [
     image: dice,
     tags: ["React JS", "Styled Components", "HTML", "CSS", "JavaScript (ES6+)"],
     github:
-      "dice https://github.com/Gayatri-Vishwa/React-Projects/tree/main/03Dice",
+      "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/03Dice",
     webapp: "https://react-projects-wpbc.vercel.app/",
   },
   {

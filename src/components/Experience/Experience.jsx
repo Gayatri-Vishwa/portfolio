@@ -137,7 +137,7 @@ const Experience = () => {
         <h2 className="text-4xl font-bold text-white">EXPERIENCE</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
-          Self-Taught MERN Stack Developer (2025 – Present)
+         Passionate  MERN Stack Developer focused on creating fast, responsive, and user-friendly web applications
         </p>
       </div>
 
