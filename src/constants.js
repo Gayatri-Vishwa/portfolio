@@ -157,32 +157,32 @@ export const experiences = [
       // " Next Js",
     ],
   },
-  {
-    id: 1,
-    img: agcLogo,
-    role: "Fullstack Engineer",
-    company: "Agumentik Group of Companies",
-    date: "July 2023 - March 2024",
-    desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "JavaScript",
-      "Tailwind CSS",
-      "HTML",
-      "CSS",
-      "SQL",
-    ],
-  },
-  {
-    id: 2,
-    img: newtonschoolLogo,
-    role: "Frontend Intern",
-    company: "Newton School",
-    date: "September 2021 - August 2022",
-    desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-    skills: ["HTML", "CSS", "Javascript", "Bootstrap", "Figma", "Material UI"],
-  },
+  // {
+  //   id: 1,
+  //   img: agcLogo,
+  //   role: "Fullstack Engineer",
+  //   company: "Agumentik Group of Companies",
+  //   date: "July 2023 - March 2024",
+  //   desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+  //   skills: [
+  //     "ReactJS",
+  //     "Redux",
+  //     "JavaScript",
+  //     "Tailwind CSS",
+  //     "HTML",
+  //     "CSS",
+  //     "SQL",
+  //   ],
+  // },
+  // {
+  //   id: 2,
+  //   img: newtonschoolLogo,
+  //   role: "Frontend Intern",
+  //   company: "Newton School",
+  //   date: "September 2021 - August 2022",
+  //   desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+  //   skills: ["HTML", "CSS", "Javascript", "Bootstrap", "Figma", "Material UI"],
+  // },
 ];
 
 export const education = [
@@ -423,25 +423,25 @@ export const projects = [
       "https://github.com/Gayatri-Vishwa/JS-Projects/tree/main/ConvertTextToSpeech",
     webapp: "https://js-projects-ee58.vercel.app/",
   },
-  {
-    id: 15,
-    title: "Translator",
-    description:
-      "A React-based language translator application that allows users to translate text into multiple languages The app uses a translation API to provide fast and accurate results in real time. It features a clean, user-friendly interface for seamless language conversion",
+  // {
+  //   id: 15,
+  //   title: "Translator",
+  //   description:
+  //     "A React-based language translator application that allows users to translate text into multiple languages The app uses a translation API to provide fast and accurate results in real time. It features a clean, user-friendly interface for seamless language conversion",
 
-    image: translator,
-    tags: ["React JS", "tailwindcss", "Translation API", "JavaScript (ES6+)"],
-    github: "https://codingmasterweb.in/",
-    webapp: "https://codingmasterweb.in/",
-  },
-  {
-    id: 16,
-    title: "Video Script Generator",
-    description:
-      "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-    image: npmLogo,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
-    github: "https://github.com/codingmastr/cmtk-email-validator",
-    webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-  },
+  //   image: translator,
+  //   tags: ["React JS", "tailwindcss", "Translation API", "JavaScript (ES6+)"],
+  //   github: "https://codingmasterweb.in/",
+  //   webapp: "https://codingmasterweb.in/",
+  // },
+  // {
+  //   id: 16,
+  //   title: "Video Script Generator",
+  //   description:
+  //     "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+  //   image: npmLogo,
+  //   tags: ["React JS", "Node.js", "NPM", "Validation"],
+  //   github: "https://github.com/codingmastr/cmtk-email-validator",
+  //   webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+  // },
 ];
