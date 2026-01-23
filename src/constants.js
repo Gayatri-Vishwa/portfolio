@@ -142,11 +142,7 @@ export const experiences = [
     role: "MERN Stack Developer- Self Learning",
     // company: "Webverse Digital   Hands-On Experience,",
     date: "– Self Learning 2025 – Present ",
-    desc:" Self-learned full-stack web development using MongoDB, Express.js, React.js, and Node.js . Gained hands-on experience by building and deploying multiple MERN applications .Developed and consumed RESTful APIs .Implemented JWT authentication and role-based authorizationFocused on clean code, scalability, and best practicesWorked with Git & GitHub for version control and collaboration Deployed applications on Vercel, Netlify, and Render"
-    
-    
-    // "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment."
-    ,
+    desc:" Self-learned full-stack web development using MongoDB, Express.js, React.js, and Node.js . Gained hands-on experience by building and deploying multiple MERN applications .Developed and consumed RESTful APIs .Implemented JWT authentication and role-based authorizationFocused on clean code, scalability, and best practicesWorked with Git & GitHub for version control and collaboration Deployed applications on Vercel, Netlify, and Render",
     skills: [
       "HTML",
       "CSS",
@@ -161,32 +157,32 @@ export const experiences = [
       // " Next Js",
     ],
   },
-  // {
-  //   id: 1,
-  //   img: agcLogo,
-  //   role: "Fullstack Engineer",
-  //   company: "Agumentik Group of Companies",
-  //   date: "July 2023 - March 2024",
-  //   desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-  //   skills: [
-  //     "ReactJS",
-  //     "Redux",
-  //     "JavaScript",
-  //     "Tailwind CSS",
-  //     "HTML",
-  //     "CSS",
-  //     "SQL",
-  //   ],
-  // },
-  // {
-  //   id: 2,
-  //   img: newtonschoolLogo,
-  //   role: "Frontend Intern",
-  //   company: "Newton School",
-  //   date: "September 2021 - August 2022",
-  //   desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-  //   skills: ["HTML", "CSS", "Javascript", "Bootstrap", "Figma", "Material UI"],
-  // },
+  {
+    id: 1,
+    img: agcLogo,
+    role: "Fullstack Engineer",
+    company: "Agumentik Group of Companies",
+    date: "July 2023 - March 2024",
+    desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+    skills: [
+      "ReactJS",
+      "Redux",
+      "JavaScript",
+      "Tailwind CSS",
+      "HTML",
+      "CSS",
+      "SQL",
+    ],
+  },
+  {
+    id: 2,
+    img: newtonschoolLogo,
+    role: "Frontend Intern",
+    company: "Newton School",
+    date: "September 2021 - August 2022",
+    desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+    skills: ["HTML", "CSS", "Javascript", "Bootstrap", "Figma", "Material UI"],
+  },
 ];
 
 export const education = [
@@ -194,21 +190,23 @@ export const education = [
     id: 0,
     img: educationlogo,
     school:
-      "S.D College of Management Studies, affiliated to M.S University, Sahranpur",
+      "S.D College of Mgt Studies,",
+         school2:" Affiliated to DR. APJ A.K.T.U , Lucknow",
     date: "Sept 2024 - July 2026",
     grade: "7.81 CGPA",
-    desc: "I have completed my Master's degree (MCA) in Computer Applications from AKTU University, Lucknow. During MCA, I gained a strong foundation in programming, Web development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at  college has been instrumental in shaping my technical abilities and professional growth.",
-    degree: "Master of Computer Applications - (MCA)",
+    desc: "I have completed my Master's degree (MCA) in Computer Applications from AKTU University, Lucknow. During MCA, I gained a strong foundation in programming, Web development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. .",
+    degree: " (MCA)",
   },
   {
     id: 1,
     img: educationlogo,
     school:
-      "S.D College of Management Studies, affiliated to DR. APJ A.K.T.U , Lucknow",
+      "S.D College of Management Studies,",
+      school2:" Affiliated to M.S University, Sahranpur",
     date: "Sept 2021 - Aug 2024",
     grade: "77.6%",
-    desc: "I completed my Bachelor's degree in Computer Application (B.C.A) from S.D  College, Muzaffarnagar. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of web development. My time at SD College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-    degree: "Bachelor of Computer Application - (BCA)",
+    desc: "I completed my Bachelor's degree in Computer Application (B.C.A) from S.D  College, Muzaffarnagar. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of web development.",
+    degree: "(BCA)",
   },
   {
     id: 2,
@@ -223,10 +221,10 @@ export const education = [
     id: 3,
     img: educationlogo,
     school: "J.K inter College, Muzaffarnagar",
-    date: "Apr 2018 - March 2019",
+    date: " 2018 -  2019",
     grade: "90%",
     desc: "I completed my class 10 education from J.K inter College, Muzaffarnagar, under the UP board, where I studied Science with Computer.",
-    degree: "(X) - High school (District Topper)",
+    degree: "(X) - (District Topper)",
   },
 ];
 
@@ -248,8 +246,8 @@ export const projects = [
       "MongoDB",
     ],
     github:
-      "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    webapp: "https://githubprofiledetective.netlify.app/",
+      "https://github.com/Gayatri-Vishwa/JS-Projects/tree/main/BMI%20calculator",
+    webapp: "https://kappa.netlify.app/",
   },
   {
     id: 1,
@@ -267,8 +265,8 @@ export const projects = [
       "tailwindcss",
       "JavaScript",
     ],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
+    github: "https://github.com/Gayatri-Vishwa/JS-Projects/tree/main/BMI%20calculator",
+    webapp: "https://csprep.kappa.app/",
   },
   {
     id: 2,
@@ -285,18 +283,18 @@ export const projects = [
       "Express",
       "MongoDB",
     ],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    github: "https://github.com/Gayatri-Vishwa/JS-Projects/tree/main/BMI%20calculator",
+    webapp: "https://movie-kappa-app-jet.vercel.app/",
   },
 
   {
     id: 3,
     title: "Background Changer",
     description:
-      "A React-based language translator application that allows users to translate text into multiple languages The app uses a translation API to provide fast and accurate results in real time. It features a clean, user-friendly interface for seamless language conversion",
+      "A React-based application that dynamically changes the background color using state and event handling, showcasing core React concepts.",
 
     image: hexbg,
-    tags: ["React JS", "tailwindcss", "Translation API", "JavaScript (ES6+)"],
+    tags: ["React JS", "tailwindcss" , ],
     github:
       "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/06RandomColor_HAXorRGB",
     webapp: "https://react-projects-tl9o.vercel.app/",
@@ -352,9 +350,9 @@ export const projects = [
     id: 8,
     title: "BMI Calculator",
     description:
-      "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+      "A simple web application that calculates Body Mass Index (BMI) based on user input, providing instant results using JavaScript logic and DOM manipulation.",
     image: bmi,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
+ tags: ["HTML", "CSS", "JavaScript"],
     github:
       "https://github.com/Gayatri-Vishwa/JS-Projects/tree/main/BMI%20calculator",
     webapp: "https://js-projects-kappa-silk.vercel.app/",
@@ -363,31 +361,31 @@ export const projects = [
     id: 9,
     title: "todo with redux",
     description:
-      "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+      "A frontend-only task management application built with React and Redux for centralized state management, enabling users to add, update, and delete tasks with a clean and responsive UI.",
     image: todoredux,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
+    tags: ["React JS", "tailwindCss" ,"redux-toolkit"],
     github:
       "https://github.com/Gayatri-Vishwa/reactProjects2/tree/main/10TodoWithRedux",
     webapp: "https://react-projects2-ixeu.vercel.app/",
   },
   {
     id: 10,
-    title: "random simple color generator",
+    title: "Background Changer",
     description:
-      "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+      "A simple frontend application that allows users to change the background color to predefined options using JavaScript through button-based interactions and DOM manipulation.",
     image: simplebg,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
+    tags: ["React JS", "tailwindCss"],
     github:
       "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/08BackgroundColorChanger",
     webapp: "https://bgchanger-beta.vercel.app/",
   },
   {
     id: 11,
-    title: "currency converter",
+    title: "Currency converter",
     description:
-      "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+      "A web app that allows users to convert currencies in real-time using live exchange rates, with a simple and intuitive interface.",
     image: currency,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
+    tags: ["React.JS", "TailwindCss", "javascript/JSX", "Exchange rate API "],
     github:
       "https://github.com/Gayatri-Vishwa/reactProjects2/tree/main/11CurrencyConverter",
     webapp: "https://react-projects2-fyhm.vercel.app/",
@@ -396,9 +394,9 @@ export const projects = [
     id: 12,
     title: " Random password generator",
     description:
-      "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+    "A tool that generates strong, secure, and customizable passwords instantly to enhance online security.",
     image: password,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
+    tags: ["React JS","tailwindCss","hooks"],
     github:
       "https://github.com/Gayatri-Vishwa/reactProjects2/tree/main/09RandomPasswordGenerator",
     webapp: "https://react-projects2-nine.vercel.app/",
@@ -407,9 +405,9 @@ export const projects = [
     id: 13,
     title: "Food Zone",
     description:
-      "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+      "FoodZoe is a food discovery app that lets users search for dishes or restaurants, providing quick and easy access to meal options.",
     image: food,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
+    tags: ["React JS","tailwindCss","hooks"],
     github:
       "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/04FoodZone",
     webapp: "https://react-projects-dyqt.vercel.app",
@@ -418,9 +416,9 @@ export const projects = [
     id: 14,
     title: "Text to Speech",
     description:
-      "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+   "A web app that converts typed text into spoken audio using the Web Speech API’s SpeechSynthesis. Built with HTML, CSS, and JavaScript, it allows users to listen to text in real-time.",
     image: textto,
-    tags: ["React JS", "Node.js", "NPM", "Validation"],
+    tags: ["HTML", "Css", "JavaScript", "Web Speech API (SpeechSynthesis)"],
     github:
       "https://github.com/Gayatri-Vishwa/JS-Projects/tree/main/ConvertTextToSpeech",
     webapp: "https://js-projects-ee58.vercel.app/",

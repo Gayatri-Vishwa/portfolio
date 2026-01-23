@@ -79,7 +79,8 @@ const Navbar = () => {
             <FaGithub size={24} />
           </a>
           <a 
-          href="https://www.linkedin.com/in/gayatri-v-674412280/?trk=public-profile-join-page"
+          href="https://www.linkedin.com/in/gayatri-v-674412280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          // "https://www.linkedin.com/in/gayatri-v-674412280/?trk=public-profile-join-page"
          
             // href="https://www.linkedin.com/in/gayatri-vishwakarma-674412280"
             
