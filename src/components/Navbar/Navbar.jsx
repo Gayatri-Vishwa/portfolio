@@ -80,8 +80,8 @@ const Navbar = () => {
             <FaGithub size={24} />
           </a>
           <a 
-          href="https://www.linkedin.com/in/gayatri-v-674412280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-        
+          // href="https://www.linkedin.com/in/gayatri-v-674412280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            href="https://www.linkedin.com/in/gayatri-vishwa"
             
             target="_blank"
             rel="noopener noreferrer"
@@ -133,7 +133,9 @@ const Navbar = () => {
                 <FaGithub size={24} />
               </a>
               <a
-                href="https://www.linkedin.com/in/gayatri-v-674412280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                // href="https://www.linkedin.com/in/gayatri-v-674412280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          
+                href="https://www.linkedin.com/in/gayatri-vishwa"
           
                 target="_blank"
                 rel="noopener noreferrer"
