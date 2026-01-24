@@ -81,7 +81,8 @@ const Navbar = () => {
           </a>
           <a 
           // href="https://www.linkedin.com/in/gayatri-v-674412280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            href="https://www.linkedin.com/in/gayatri-vishwa"
+            // href="https://www.linkedin.com/in/gayatri-vishwa"
+            href="https://www.linkedin.com/in/gayatri-v-674412280"
             
             target="_blank"
             rel="noopener noreferrer"
@@ -135,7 +136,8 @@ const Navbar = () => {
               <a
                 // href="https://www.linkedin.com/in/gayatri-v-674412280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           
-                href="https://www.linkedin.com/in/gayatri-vishwa"
+                // href="https://www.linkedin.com/in/gayatri-vishwa"
+                href="https://www.linkedin.com/in/gayatri-v-674412280"
           
                 target="_blank"
                 rel="noopener noreferrer"
