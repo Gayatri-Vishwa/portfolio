@@ -30,16 +30,20 @@ const Navbar = () => {
 
   const menuItems = [
     { id: "about", label: "About" },
-    { id: "skills", label: "Skills" },
-    { id: "experience", label: "Experience" },
-    { id: "work", label: "Projects" },
-    { id: "education", label: "Education" },
+    { id: "skills", label: " Skills " },
+    { id: "experience", label: "Experience " },
+    { id: "work", label: " Projects " },
+    { id: "education", label: "Education  " },
+    { id: "contact", label: "Contact" },
+    { id: " ", label: "  " },
   ];
 
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw] lg:px-[20vw] ${
-        isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-2xl shadow-md" : "bg-transparent"
+        isScrolled
+          ? "bg-[#050414] bg-opacity-50 backdrop-blur-2xl shadow-md"
+          : "bg-transparent"
       }`}
     >
       <div className="text-white py-5 flex justify-between items-center">
@@ -76,14 +80,12 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
           >
-            
             <FaGithub size={24} />
           </a>
-          <a 
-          // href="https://www.linkedin.com/in/gayatri-v-674412280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          <a
+            // href="https://www.linkedin.com/in/gayatri-v-674412280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             // href="https://www.linkedin.com/in/gayatri-vishwa"
             href="https://www.linkedin.com/in/gayatri-v-674412280"
-            
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
@@ -110,53 +112,55 @@ const Navbar = () => {
 
       {/* Mobile Menu Items */}
       {isOpen && (
-        <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#050414] bg-opacity-50 backdrop-filter backdrop-blur-lg z-50 rounded-lg shadow-lg md:hidden">
-          <ul className="flex flex-col items-center space-y-4 py-4 text-gray-300">
-            {menuItems.map((item) => (
-              <li
-                key={item.id}
-                className={`cursor-pointer hover:text-white ${
-                  activeSection === item.id ? "text-[#8245ec]" : ""
-                }`}
-              >
-                <button onClick={() => handleMenuItemClick(item.id)}>
-                  {item.label}
-                </button>
-              </li>
-            ))}
-            <div className="flex space-x-4">
-              <a
-                href="https://github.com/gayatri-vishwa"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white "
-              >
-                <FaGithub size={24} />
-              </a>
-              <a
-                // href="https://www.linkedin.com/in/gayatri-v-674412280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        <>
+          {/* Overlay to blur background */}
+
           
-                // href="https://www.linkedin.com/in/gayatri-vishwa"
-                href="https://www.linkedin.com/in/gayatri-v-674412280"
-          
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white"
-              >
-                <FaLinkedin size={24} /> 
-              </a>
+            <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#161323] bg-opacity-50 backdrop-filter backdrop-blur-lg z-50 rounded-lg shadow-lg md:hidden">
+              <ul className="flex flex-col items-center space-y-4 py-3 text-gray-300">
+                {menuItems.map((item) => (
+                  <li
+                    key={item.id}
+                    className={`cursor-pointer hover:text-white ${
+                      activeSection === item.id ? "text-[#8245ec]" : ""
+                    }`}
+                  >
+                    <button onClick={() => handleMenuItemClick(item.id)}>
+                      {item.label}
+                    </button>
+                  </li>
+                ))}
+                <div className="flex space-x-4 mb-9">
+                  <a
+                    href="https://github.com/gayatri-vishwa"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-white "
+                  >
+                    <FaGithub size={24} />
+                  </a>
+                  <a
+                    // href="https://www.linkedin.com/in/gayatri-v-674412280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+
+                    // href="https://www.linkedin.com/in/gayatri-vishwa"
+                    href="https://www.linkedin.com/in/gayatri-v-674412280"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:text-white "
+                  >
+                    <FaLinkedin size={24} />
+                  </a>
+                </div>
+              </ul>
             </div>
-          </ul>
-        </div>
+         
+        </>
       )}
     </nav>
   );
 };
 
 export default Navbar;
-
-
-
 
 // import React, { useEffect, useState } from "react";
 // import { FiMenu, FiX } from "react-icons/fi";
@@ -224,7 +228,7 @@ export default Navbar;
 //                 {item.label}
 //               </button>
 //             </li>
-          
+
 //           ))}
 //         </ul>
 //         {/*  social media icons */}
@@ -237,7 +241,6 @@ export default Navbar;
 //           >
 //             <FaGithub size={24} />
 //           </NavLink>
-
 
 //           <NavLink
 //             href=""

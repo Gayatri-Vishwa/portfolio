@@ -4,7 +4,7 @@
 
 const Footer = () => {
   return (
-    <footer className="w-full mt-16">
+    <footer className="w-full mt-16 pb-12">
       {/* Top divider */}
       <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-purple-500 to-transparent opacity-60" />
      

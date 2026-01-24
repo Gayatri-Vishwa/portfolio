@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { projects } from "../../constants";
+import BlurBlob from "../../BlurBlob";
 
 const Work = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -17,7 +18,9 @@ const Work = () => {
   return (
     <section
       id="work"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative"
+      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative  overflow-hidden"
+      
+ 
             style={{
         backgroundImage: `
           linear-gradient(38.73deg, rgba(204,0,187,0.15) 0%, rgba(201,32,184,0) 50%),
@@ -25,6 +28,7 @@ const Work = () => {
         `,
       }}
     >
+
       {/* Section Title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">PROJECTS</h2>
@@ -81,8 +85,14 @@ const Work = () => {
       onClick={() =>
         setVisibleCount(visibleCount === 6 ? projects.length : 6)
       }
-      className="px-8 py-3 text-lg font-semibold rounded-xl
-      bg-purple-600 text-white hover:bg-purple-800 transition-all"
+      // className="px-8 py-3 text-lg font-semibold rounded-xl
+      // bg-purple-600 text-white hover:bg-purple-800 transition-all"
+        className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
+            style={{
+          
+              background: "linear-gradient(90deg, #3b1d8f, #2e1d4d)",
+              boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
+            }}
     >
       {visibleCount === 6 ? "Show More" : "Show Less"}
     </button>

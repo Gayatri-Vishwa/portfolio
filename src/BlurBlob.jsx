@@ -30,7 +30,7 @@ function BlurBlob({position,size}) {
 }
 
 //define props type   (so in whole website when we pass value for top left etc it should be string type otherwise it generates error)
-BlurBlob.PropTypes={
+BlurBlob.propTypes={
     position:PropTypes.shape({
         top:PropTypes.string,
         left:PropTypes.string

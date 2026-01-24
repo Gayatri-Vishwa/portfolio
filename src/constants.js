@@ -9,8 +9,8 @@ import reduxLogo from "./assets/tech_logo/redux.png";
 // import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
 // import gsapLogo from './assets/tech_logo/gsap.png';
-// import materialuiLogo from './assets/tech_logo/materialui.png';
-import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
+import materialuiLogo from './assets/tech_logo/materialui.png';
+// import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
 // import springbootLogo from './assets/tech_logo/springboot.png';
 import nodejsLogo from "./assets/tech_logo/nodejs.png";
 import expressjsLogo from "./assets/tech_logo/express.png";
@@ -52,7 +52,7 @@ import rock from "./assets/projects/rock.png";
 import textto from "./assets/projects/texttospeech.png";
 import tick from "./assets/projects/tick.png";
 import todo from "./assets/projects/TODO.png";
-import translator from "./assets/projects/translator.png";
+// import translator from "./assets/projects/translator.png";
 import bmi from "./assets/projects/bmi.png";
 import food from "./assets/projects/food.png";
 import todoredux from "./assets/projects/todoredux.png";
@@ -74,8 +74,8 @@ export const SkillsInfo = [
       // { name: 'Next JS', logo: nextjsLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
       // { name: 'GSAP', logo: gsapLogo },
-      // { name: 'Material UI', logo: materialuiLogo },
-      { name: "Bootstrap", logo: bootstrapLogo },
+      { name: 'Material UI', logo: materialuiLogo },
+      // { name: "Bootstrap", logo: bootstrapLogo },
     ],
   },
   {
@@ -153,49 +153,6 @@ export const experiences = [
 ];
 
 
-
-
-export const education = [
-  {
-    id: 0,
-    img: educationlogo,
-    school: "S.D College of Mgt Studies,",
-    school2: " Affiliated to DR. APJ A.K.T.U , Lucknow",
-    date: "Sept 2024 - July 2026",
-    grade: "7.81 CGPA",
-    desc: "I have completed my Master's degree (MCA) in Computer Applications from AKTU University, Lucknow. During MCA, I gained a strong foundation in programming, Web development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. .",
-    degree: " (MCA)",
-  },
-  {
-    id: 1,
-    img: educationlogo,
-    school: "S.D College of Management Studies,",
-    school2: " Affiliated to M.S University, Sahranpur",
-    date: "Sept 2021 - Aug 2024",
-    grade: "77.6%",
-    desc: "I completed my Bachelor's degree in Computer Application (B.C.A) from S.D  College, Muzaffarnagar. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of web development.",
-    degree: "(BCA)",
-  },
-  {
-    id: 2,
-    img: educationlogo,
-    school: "S.D Girls Inter College , Muzaffarnagar",
-    date: "Apr 2020 - March 2021",
-    grade: "78.2%",
-    desc: "I completed my class 12 education from S>D Girls Inter College, Muzaffarnagar, under the UP board, where I studied Physics, Chemistry, and Mathematics (PCM) .",
-    degree: "(XII) - Intermediate",
-  },
-  {
-    id: 3,
-    img: educationlogo,
-    school: "J.K inter College, Muzaffarnagar",
-    date: " 2018 -  2019",
-    grade: "90%",
-    desc: "I completed my class 10 education from J.K inter College, Muzaffarnagar, under the UP board, where I studied Science with Computer.",
-    degree: "(X) - (District Topper)",
-  },
-];
-
 export const projects = [
   {
     id: 0,
@@ -259,140 +216,140 @@ export const projects = [
     webapp: "https://movie-kappa-app-jet.vercel.app/",
   },
    {
-    id: 11,
+    id: 3,
     title: "Currency converter",
     description:
       "A web app that allows users to convert currencies in real-time using live exchange rates, with a simple and intuitive interface.",
     image: currency,
-    tags: ["React.JS", "TailwindCss", "javascript/JSX", "Exchange rate API "],
+    tags: ["React.JS", "Tailwind Css", "javascript/JSX", "ExchangeRate-API "],
     github:
       "https://github.com/Gayatri-Vishwa/reactProjects2/tree/main/11CurrencyConverter",
     webapp: "https://react-projects2-fyhm.vercel.app/",
   },
     {
-    id: 5,
+    id: 4,
     title: "Firebase Contact App ",
     description:
       "A contact management application built with React and Firebase Firestore, enabling real-time add, search, and delete operations with instant data synchronization.",
 
     image: fire,
-    tags: ["React JS", "Firebase Firestore", "tailwindCss", "Javascript(ES6+)"],
+    tags: ["React JS", "Firebase (Firestore)", "tailwind Css"],
     github:
       "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/05fireBaseContactApp",
     webapp: "https://react-projects-zfgr.vercel.app/",
   },
     {
-    id: 9,
+    id: 5,
     title: "Todo with redux",
     description:
       "A frontend-only task management application built with React and Redux for centralized state management, enabling users to add, update, and delete tasks with a clean and responsive UI.",
     image: todoredux,
-    tags: ["React JS", "tailwindCss", "redux-toolkit"],
+    tags: ["React JS", "tailwind Css", "redux-toolkit"],
     github:
       "https://github.com/Gayatri-Vishwa/reactProjects2/tree/main/10TodoWithRedux",
     webapp: "https://react-projects2-ixeu.vercel.app/",
   },
     {
-    id: 14,
+    id: 6,
     title: "Text to Speech",
     description:
       "A web app that converts typed text into spoken audio using the Web Speech API’s SpeechSynthesis. Built with HTML, CSS, and JavaScript, it allows users to listen to text in real-time.",
     image: textto,
-    tags: ["HTML", "Css", "JavaScript", "Web Speech API (SpeechSynthesis)"],
+    tags: ["HTML5", "CSS3", "JavaScript(ES6+)", "Text-To-Speech API (Web Speech API)"],
     github:
       "https://github.com/Gayatri-Vishwa/JS-Projects/tree/main/ConvertTextToSpeech",
     webapp: "https://js-projects-ee58.vercel.app/",
   },
 
   {
-    id: 3,
-    title: "Background Changer",
+    id: 7,
+    title: "Random Background Changer",
     description:
       "A React-based application that dynamically changes the background color using state and event handling, showcasing core React concepts.",
 
     image: hexbg,
-    tags: ["React JS", "tailwindcss"],
+    tags: [ "tailwind Css" ,"JavaScript(ES6+)","React JS",],
     github:
       "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/06RandomColor_HAXorRGB",
     webapp: "https://react-projects-tl9o.vercel.app/",
   },
   {
-    id: 4,
+    id: 8,
     title: "Dice Game",
     description:
       "An interactive dice game built with React where users select numbers, roll dice, and earn points based on predictions. Features dynamic scoring, rules display, and responsive UI.",
     image: dice,
-    tags: ["React JS", "Styled Components", "HTML", "CSS", "JavaScript (ES6+)"],
+    tags: ["React JS(Hooks,State)", "Styled Component",  "JavaScript (ES6+)"],
     github: "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/03Dice",
     webapp: "https://react-projects-wpbc.vercel.app/",
   },
 
   {
-    id: 6,
+    id: 9,
     title: "Tick Tack toe",
     description:
       "A classic Tic Tac Toe game developed using HTML, CSS, and JavaScript. The game allows two players to take turns and checks for winning or draw conditions in real time.It features a responsive design and smooth user interaction.",
 
     image: tick,
-    tags: ["JavaScript", "HTML", "CSS"],
+    tags: ["JavaScript(ES6+)", "HTML5", "CSS3"],
     github:
       "https://github.com/Gayatri-Vishwa/JS-Projects/tree/main/tick%20tack%20toe",
     webapp: "https://js-projects-up8h.vercel.app/",
   },
   {
-    id: 7,
+    id: 10,
     title: "Rock paper scissor",
     description:
       "A classic Rock Paper Scissors game built using HTML, CSS, and JavaScript.The game allows users to play against the computer with real-time result display.It includes score tracking and dynamic UI updates for an engaging experience.",
     image: rock,
-    tags: ["HTML", "CSS", "JavaScript"],
+    tags: ["JavaScript(ES6+)", "HTML5", "CSS3"],
     github:
       "https://github.com/Gayatri-Vishwa/JS-Projects/tree/main/rock%20paper%20seasor",
     webapp: "https://js-projects-fekb.vercel.app/",
   },
   {
-    id: 8,
+    id: 11,
     title: "BMI Calculator",
     description:
       "A simple web application that calculates Body Mass Index (BMI) based on user input, providing instant results using JavaScript logic and DOM manipulation.",
     image: bmi,
-    tags: ["HTML", "CSS", "JavaScript"],
+    tags: ["JavaScript(ES6+)", "HTML5", "CSS3"],
     github:
       "https://github.com/Gayatri-Vishwa/JS-Projects/tree/main/BMI%20calculator",
     webapp: "https://js-projects-kappa-silk.vercel.app/",
   },
 
   {
-    id: 10,
-    title: "Background Changer",
+    id: 12,
+    title: " Background Changer",
     description:
       "A React-based UI utility that dynamically changes background colors using state management and event handling, demonstrating core React concepts and clean component design.",
 
     image: simplebg,
-    tags: ["React JS", "tailwindCss"],
+    tags: ["React JS(Hooks,State)", "Tailwind Css"],
     github:
       "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/08BackgroundColorChanger",
     webapp: "https://bgchanger-beta.vercel.app/",
   },
  
   {
-    id: 12,
+    id: 13,
     title: " Random password generator",
     description:
       "A tool that generates strong, secure, and customizable passwords instantly to enhance online security.",
     image: password,
-    tags: ["React JS", "tailwindCss", "hooks"],
+    tags: ["React JS (Hooks,State)", "Tailwind CSS", ""],
     github:
       "https://github.com/Gayatri-Vishwa/reactProjects2/tree/main/09RandomPasswordGenerator",
     webapp: "https://react-projects2-nine.vercel.app/",
   },
   {
-    id: 13,
+    id: 14,
     title: "Food Zone",
     description:
       "FoodZoe is a food discovery app that lets users search for dishes or restaurants, providing quick and easy access to meal options.",
     image: food,
-    tags: ["React JS", "tailwindCss", "hooks"],
+    tags: ["React JS (Hooks,State)", "Tailwind CSS", ""],
     github:
       "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/04FoodZone",
     webapp: "https://react-projects-dyqt.vercel.app",
@@ -419,4 +376,45 @@ export const projects = [
   //   github: "https://github.com/codingmastr/cmtk-email-validator",
   //   webapp: "https://www.npmjs.com/package/cmtk-email-validator",
   // },
+];
+
+export const education = [
+  {
+    id: 0,
+    img: educationlogo,
+    school: "S.D College of Management Studies, MZN",
+    school2: "Affiliated to DR. APJ A.K.T.U ,Lucknow",
+    date: "Sept 2024 - July 2026",
+    grade: "7.81 CGPA",
+    degree: "(MCA)",
+    desc: "Master's in Computer Applications focusing on Web Development, Data Structures, OOP, and Software Engineering. Gained practical skills in building responsive applications.",
+  },
+  {
+    id: 1,
+    img: educationlogo,
+    school: "S.D College of Management Studies, MZN",
+    school2: "Affiliated to M.S University",
+    date: "Sept 2021 - Aug 2024",
+    grade: "77.6%",
+    degree: "(BCA)",
+    desc: "Bachelor's in Computer Applications with hands-on experience in Web Development, Databases, and Programming. Built projects applying core computing concepts.",
+  },
+  {
+    id: 2,
+    img: educationlogo,
+    school: "S.D Girls Inter College, Muzaffarnagar",
+    date: "Apr 2020 - Mar 2021",
+    grade: "76.6%",
+    degree: "(XII) - Intermediate",
+    desc: "Completed Class 12 with PCM (Physics, Chemistry, Maths), building strong foundation for programming and logical thinking.",
+  },
+  {
+    id: 3,
+    img: educationlogo,
+    school: "J.K Inter College, Muzaffarnagar",
+    date: "Apr 2018 - Mar 2019",
+    grade: "90%",
+    degree: "(X) - District Topper",
+    desc: "Completed Class 10 with Science & Computers, achieved district topper rank, showcasing early academic excellence.",
+  },
 ];
