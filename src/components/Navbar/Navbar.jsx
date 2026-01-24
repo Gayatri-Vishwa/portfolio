@@ -76,13 +76,12 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
           >
+            
             <FaGithub size={24} />
           </a>
           <a 
           href="https://www.linkedin.com/in/gayatri-v-674412280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-          // "https://www.linkedin.com/in/gayatri-v-674412280/?trk=public-profile-join-page"
-         
-            // href="https://www.linkedin.com/in/gayatri-v-674412280"
+        
             
             target="_blank"
             rel="noopener noreferrer"
@@ -129,18 +128,18 @@ const Navbar = () => {
                 href="https://github.com/gayatri-vishwa"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-white"
+                className="text-gray-300 hover:text-white "
               >
                 <FaGithub size={24} />
               </a>
               <a
                 href="https://www.linkedin.com/in/gayatri-v-674412280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                // href="https://www.linkedin.com/in/gayatri-vishwakarma-674412280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white"
               >
-                <FaLinkedin size={24} />
+                <FaLinkedin size={24} /> 
               </a>
             </div>
           </ul>

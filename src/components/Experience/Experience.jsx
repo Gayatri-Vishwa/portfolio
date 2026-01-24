@@ -164,17 +164,19 @@ const Experience = () => {
             {index % 2 === 0 && (
               <div className="w-full sm:w-1/2  flex justify-end ml-5">
                 <div className="w-full sm:w-80  p-4 sm:p-6 rounded-2xl shadow-lg border border-white bg-gray-900 backdrop-blur-md">
-                  <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 justify-end">
-                    <div className="w-20 h-12 bg-white rounded-md overflow-hidden mb-3 sm:mb-0">
+                  {/* <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 justify-end"> */}
+                  <div className="flex items-center  space-x-4 justify-end ">
+                    <div className="w-34 h-17 bg-white rounded-md overflow-hidden mb-3 sm:mb-0">
                       <img
                         src={exp.img}
-                        alt={exp.company}
+                        alt={" img"}
                         className="w-full h-full object-contain"
                       />
                     </div>
-                    <div className="flex flex-col justify-between">
-                      <h3 className="text-lg sm:text-xl font-semibold text-white">{exp.role}</h3>
-                      <h4 className="text-sm sm:text-md text-gray-300">{exp.company}</h4>
+                    <div className="flex flex-col justify-between ">
+                      <h3 className="text-lg sm:text-xl font-semibold text-white">{exp.role} </h3>
+                      <h4 className="sm:text-xs text-white text-lg font-semibold">{exp.role2}</h4>
+                      {/* <h4 className="text-sm sm:text-md text-gray-300">{exp.company}</h4> */}
                       <p className="text-xs text-gray-500 mt-1">{exp.date}</p>
                     </div>
                   </div>
@@ -216,7 +218,8 @@ const Experience = () => {
                     {exp.skills.map((skill, i) => (
                       <li
                         key={i}
-                        className="bg-[#8245ec] text-gray-300 px-3 py-1 text-xs rounded-lg mr-2 mb-2 border border-gray-400"
+                        // className="bg-[#8245ec] text-gray-300 px-3 py-1 text-xs rounded-lg mr-2 mb-2 border border-gray-400"c
+                        className="inline-block bg-[#251f38] text-xs font-semibold text-purple-500 rounded-full px-2 py-1 mr-2 mb-2"
                       >
                         {skill}
                       </li>

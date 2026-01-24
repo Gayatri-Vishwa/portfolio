@@ -3,6 +3,8 @@ import { projects } from "../../constants";
 
 const Work = () => {
   const [selectedProject, setSelectedProject] = useState(null);
+  const [visibleCount, setVisibleCount] = useState(6);
+
 
   const handleOpenModal = (project) => {
     setSelectedProject(project);
@@ -35,7 +37,9 @@ const Work = () => {
 
       {/* Projects Grid */}
       <div className="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {projects.map((project) => (
+        {/* {projects.map((project) => ( */}
+        {projects.slice(0, visibleCount).map((project) => (
+
           <div
             key={project.id}
             onClick={() => handleOpenModal(project)}
@@ -69,6 +73,22 @@ const Work = () => {
           </div>
         ))}
       </div>
+
+      {/* ============================================================= */}
+      {projects.length > 6 && (
+  <div className="flex justify-center mt-16">
+    <button
+      onClick={() =>
+        setVisibleCount(visibleCount === 6 ? projects.length : 6)
+      }
+      className="px-8 py-3 text-lg font-semibold rounded-xl
+      bg-purple-600 text-white hover:bg-purple-800 transition-all"
+    >
+      {visibleCount === 6 ? "Show More" : "Show Less"}
+    </button>
+  </div>
+)}
+{/* =================================================================================== */}
 
       {/* Modal Container */}
       {selectedProject && (

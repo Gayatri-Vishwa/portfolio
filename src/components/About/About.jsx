@@ -44,7 +44,8 @@ function About() {
           {/* resume button  */}
           <a
             // href="https://drive.google.com/file/d/1HEpgLnfLJKS9PAdMkHHEe6vkp0J39-iX/view?usp=drivesdk"
-            href="https://drive.google.com/file/d/1DM4gh5-V8ndUYKN0LlWeSsckkMzJQ_p5/view?usp=drivesdk"
+            // href="https://drive.google.com/file/d/1DM4gh5-V8ndUYKN0LlWeSsckkMzJQ_p5/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1miPPwFuXg7b5qYWlRit0jGBkl-9vJCd0/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
