@@ -15,7 +15,7 @@ function About() {
         {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left">
           {/* Greeting */}
-          <h1 className="text-3xl sm:text-5xl md:text-5xl font-bold text-white mb-2 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-4xl font-bold text-white mb-2 leading-tight">
             Hi, I am
           </h1>
           {/* Name */}
@@ -36,18 +36,30 @@ function About() {
             />
           </h3>
           {/* About Paragraph */}
-          <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-6 leading-relaxed">
+          {/* <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-6 leading-relaxed">
             I’m a passionate Full Stack MERN Developer and MCA student who
             enjoys building responsive and user-friendly web applications. As a
             fresher, I focus on learning by building real-world projects,
             writing clean and maintainable code, and continuously improving my
             development skills. I’m eager to grow as a developer and contribute
             to meaningful products.
-          </p>
+          </p> */}
+ <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-6 leading-relaxed">
+  I am a Full Stack MERN Developer and MCA student with experience in building
+  responsive and scalable web applications using React, Node.js, Express, and
+  MongoDB. I have developed real-world projects including AI-powered apps,
+  e-commerce platforms, and CRUD systems, following clean code practices and
+  MVC architecture.
+</p>
+
+
           {/* Resume Button */}
           <a
             href="https://drive.google.com/file/d/1miPPwFuXg7b5qYWlRit0jGBkl-9vJCd0/view?usp=drivesdk"
             target="_blank"
+        
+  aria-label="Download Resume"
+
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
@@ -63,7 +75,10 @@ function About() {
         {/* Right Side - Profile Image */}
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Tilt
-            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] border-4 border-purple-700 rounded-full"
+            // className="w-48 h-48 sm:w-64 sm:h-64 md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] border-4 border-purple-700 rounded-full"
+            className="w-48 h-48 sm:w-64 sm:h-64 md:w-[350px] md:h-[350px] 
+border-2 border-purple-600 rounded-full shadow-[0_0_30px_rgba(130,69,236,0.6)]"
+
             tiltMaxAngleX={20}
             tiltMaxAngleY={20}
             perspective={1000}

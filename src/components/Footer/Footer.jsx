@@ -12,7 +12,8 @@ const Footer = () => {
       <div className="bg-gradient-to-b from-[#0b001a] to-[#05000d] px-4 py-6">
         <div className="max-w-6xl mx-auto text-center space-y-1">
           <p className="text-xs sm:text-sm text-gray-400">
-            © 2026 <span className="text-gray-200 font-medium">Gayatri Vishwakarma</span>. All rights reserved.
+            {/* © 2026 <span className="text-gray-200 font-medium">Gayatri Vishwakarma</span>. All rights reserved. */}
+            © {new Date().getFullYear()} <span className="text-gray-200 font-medium">Gayatri Vishwakarma</span>.. All rights reserved.
           </p>
 
           <p className="text-[11px] sm:text-xs text-gray-500">

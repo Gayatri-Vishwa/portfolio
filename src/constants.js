@@ -9,7 +9,7 @@ import reduxLogo from "./assets/tech_logo/redux.png";
 // import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
 // import gsapLogo from './assets/tech_logo/gsap.png';
-import materialuiLogo from './assets/tech_logo/materialui.png';
+import materialuiLogo from "./assets/tech_logo/materialui.png";
 // import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
 // import springbootLogo from './assets/tech_logo/springboot.png';
 import nodejsLogo from "./assets/tech_logo/nodejs.png";
@@ -33,9 +33,6 @@ import vercelLogo from "./assets/tech_logo/vercel.png";
 // import postgreLogo from './assets/tech_logo/postgre.png';
 // import csharpLogo from './assets/tech_logo/csharp.png';
 
-
-
-
 // ---- experience mern logo
 import mernlogo from "./assets/company_logo/mern.png";
 
@@ -53,10 +50,11 @@ import textto from "./assets/projects/texttospeech.png";
 import tick from "./assets/projects/tick.png";
 import todo from "./assets/projects/TODO.png";
 // import translator from "./assets/projects/translator.png";
+import portfolio from "./assets/projects/portfolio.png";
 import bmi from "./assets/projects/bmi.png";
 import food from "./assets/projects/food.png";
 import todoredux from "./assets/projects/todoredux.png";
-import simplebg from "./assets/projects/simplebg.png";
+// import simplebg from "./assets/projects/simplebg.png";
 import password from "./assets/projects/password.png";
 import hexbg from "./assets/projects/hexbg.png";
 
@@ -74,7 +72,7 @@ export const SkillsInfo = [
       // { name: 'Next JS', logo: nextjsLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
       // { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
+      { name: "Material UI", logo: materialuiLogo },
       // { name: "Bootstrap", logo: bootstrapLogo },
     ],
   },
@@ -117,25 +115,23 @@ export const SkillsInfo = [
   },
 ];
 
-
 export const experiences = [
   {
     id: 0,
     img: mernlogo,
-    role: "MERN Stack Developer,", 
-    role2:"Hands-on Training",
+    role: "MERN Stack Developer",
+    role2: "(Hands-on Training)",
     date: "Aug 2025 – Present",
-    desc:[
-  "Built and deployed full-stack MERN applications.",
-  "Designed RESTful APIs using MVC architecture.",
-  "Implemented JWT authentication and role-based access control.",
-  "Developed complete CRUD features for real-world use cases.",
-  "Integrated third-party APIs including Gemini AI.",
-  "Focused on clean, reusable, and scalable code.",
-  "Used Git & GitHub for version control.",
-  "Deployed apps on Vercel, Netlify, and Render."
-]
-,
+    desc: [
+      "Built and deployed full-stack MERN applications.",
+      "Designed RESTful APIs using MVC architecture.",
+      "Implemented JWT authentication and role-based access control.",
+      "Developed complete CRUD features for real-world use cases.",
+      "Integrated third-party APIs including Gemini AI.",
+      "Focused on clean, reusable, and scalable code.",
+      "Used Git & GitHub for version control.",
+      "Deployed apps on Vercel, Netlify, and Render.",
+    ],
     skills: [
       "MongoDB",
       "Express.js",
@@ -147,19 +143,18 @@ export const experiences = [
       "MVC Architecture",
       "CRUD Operations",
       "Tailwind CSS",
-      "Git & GitHub"
+      "Git & GitHub",
     ],
   },
 ];
-
 
 export const projects = [
   {
     id: 0,
     title: "AI Virtual-Assistant",
     description:
-      "An AI-powered voice-based virtual assistant that provides real-time, intelligent responses using Gemini AI. Built with MERN stack, featuring secure REST APIs, user-friendly , and scalable backend architecture.",
-
+      "AI-powered voice assistant providing real-time responses using Gemini AI. Built with MERN stack and secure REST APIs."
+   ,
     image: assistant,
     tags: [
       "React.js",
@@ -179,8 +174,7 @@ export const projects = [
     title: "E-Commerce Website",
 
     description:
-      "A full-stack e-commerce web application enabling users to browse products, manage carts, and place orders securely. Implemented authentication, REST APIs, database integration, and responsive UI using MERN stack.",
-
+        "Full-stack e-commerce app with product browsing, cart management, and secure checkout using MERN stack.",
     image: ecommerce,
     tags: [
       "React JS",
@@ -188,7 +182,7 @@ export const projects = [
       "MongoDB",
       "Express",
       "REST API",
-      "tailwindcss",
+     "Tailwind CSS",
       "JavaScript",
     ],
     github:
@@ -199,13 +193,13 @@ export const projects = [
     id: 2,
     title: "Todo App",
     description:
-      "A full-stack task management application with complete CRUD functionality. Users can add, update, mark, and delete tasks, with persistent data storage using MongoDB and RESTful APIs.",
 
+    "Full-stack task management app with CRUD operations, persistent storage, and responsive UI using MERN stack.",
     image: todo,
     tags: [
       "React JS",
       "REST API",
-      "tailwindcss",
+     "Tailwind CSS",
       "JavaScript",
       "Node.js",
       "Express",
@@ -215,77 +209,116 @@ export const projects = [
       "https://github.com/Gayatri-Vishwa/JS-Projects/tree/main/BMI%20calculator",
     webapp: "https://movie-kappa-app-jet.vercel.app/",
   },
-   {
+
+  {
     id: 3,
-    title: "Currency converter",
+    title: "Portfolio Website",
     description:
-      "A web app that allows users to convert currencies in real-time using live exchange rates, with a simple and intuitive interface.",
-    image: currency,
-    tags: ["React.JS", "Tailwind Css", "javascript/JSX", "ExchangeRate-API "],
-    github:
-      "https://github.com/Gayatri-Vishwa/reactProjects2/tree/main/11CurrencyConverter",
-    webapp: "https://react-projects2-fyhm.vercel.app/",
+      "I built a responsive React portfolio using Tailwind CSS, optimized with lazy loading, and deployed on Vercel to showcase my projects and skills efficiently.",
+    image: portfolio,
+    tags: ["React JS", "Tailwind CSS", "javascript/JSX", "emailjs"],
+    github: "https://github.com/Gayatri-Vishwa/portfolio",
+    webapp: "https://portfolio-azure-ten-jnem45fqrb.vercel.app/",
   },
-    {
+  {
     id: 4,
     title: "Firebase Contact App ",
     description:
-      "A contact management application built with React and Firebase Firestore, enabling real-time add, search, and delete operations with instant data synchronization.",
-
-    image: fire,
-    tags: ["React JS", "Firebase (Firestore)", "tailwind Css"],
+  "Real-time contact manager using React and Firebase Firestore for add, search, and delete operations."
+    , image: fire,
+    tags: ["React JS", "Firebase (Firestore)", "Tailwind CSS"],
     github:
       "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/05fireBaseContactApp",
     webapp: "https://react-projects-zfgr.vercel.app/",
   },
-    {
+  {
     id: 5,
     title: "Todo with redux",
     description:
-      "A frontend-only task management application built with React and Redux for centralized state management, enabling users to add, update, and delete tasks with a clean and responsive UI.",
-    image: todoredux,
-    tags: ["React JS", "tailwind Css", "redux-toolkit"],
+ "Frontend-only task manager with React + Redux, enabling centralized state management and responsive UI."
+      ,image: todoredux,
+    tags: ["React JS", "Tailwind CSS", "Redux-toolkit"],
     github:
       "https://github.com/Gayatri-Vishwa/reactProjects2/tree/main/10TodoWithRedux",
     webapp: "https://react-projects2-ixeu.vercel.app/",
   },
     {
     id: 6,
+    title: "Dice Game",
+    description:
+    "Interactive dice game with dynamic scoring and rules display, built with React and Styled Components."
+      ,image: dice,
+    tags: ["React JS(Hooks,State)", "Styled Component", "JavaScript (ES6+)"],
+    github: "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/03Dice",
+    webapp: "https://react-projects-wpbc.vercel.app/",
+  },
+    {
+    id: 7,
+    title: "Currency converter",
+    description:
+   "Real-time currency conversion web app with live exchange rates and simple, intuitive interface."
+   ,image: currency,
+    tags: ["React.JS", "Tailwind CSS","JavaScript(ES6+)", "ExchangeRate-API "],
+    github:
+      "https://github.com/Gayatri-Vishwa/reactProjects2/tree/main/11CurrencyConverter",
+    webapp: "https://react-projects2-fyhm.vercel.app/",
+  },
+    {
+    id: 8,
+    title: " Random password generator",
+    description:
+      "A tool that generates strong, secure, and customizable passwords instantly to enhance online security.",
+    image: password,
+    tags: ["React JS (Hooks,State)", "Tailwind CSS", ""],
+    github:
+      "https://github.com/Gayatri-Vishwa/reactProjects2/tree/main/09RandomPasswordGenerator",
+    webapp: "https://react-projects2-nine.vercel.app/",
+  },
+  {
+    id: 9,
+    title: "Food Zone",
+    description:
+      "FoodZoe is a food discovery app that lets users search for dishes or restaurants, providing quick and easy access to meal options.",
+    image: food,
+    tags: ["React JS (Hooks,State)", "Tailwind CSS", ""],
+    github:
+      "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/04FoodZone",
+    webapp: "https://react-projects-dyqt.vercel.app",
+  },
+  {
+    id: 10,
     title: "Text to Speech",
     description:
       "A web app that converts typed text into spoken audio using the Web Speech API’s SpeechSynthesis. Built with HTML, CSS, and JavaScript, it allows users to listen to text in real-time.",
     image: textto,
-    tags: ["HTML5", "CSS3", "JavaScript(ES6+)", "Text-To-Speech API (Web Speech API)"],
+    tags: [
+      "HTML5",
+      "CSS3",
+      "JavaScript(ES6+)",
+      "Text-To-Speech API (Web Speech API)",
+    ],
     github:
       "https://github.com/Gayatri-Vishwa/JS-Projects/tree/main/ConvertTextToSpeech",
     webapp: "https://js-projects-ee58.vercel.app/",
   },
 
+
   {
-    id: 7,
+    id: 11,
     title: "Random Background Changer",
     description:
       "A React-based application that dynamically changes the background color using state and event handling, showcasing core React concepts.",
 
     image: hexbg,
-    tags: [ "tailwind Css" ,"JavaScript(ES6+)","React JS",],
+    tags: ["Tailwind CSS", "JavaScript(ES6+)", "React JS"],
     github:
       "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/06RandomColor_HAXorRGB",
     webapp: "https://react-projects-tl9o.vercel.app/",
   },
-  {
-    id: 8,
-    title: "Dice Game",
-    description:
-      "An interactive dice game built with React where users select numbers, roll dice, and earn points based on predictions. Features dynamic scoring, rules display, and responsive UI.",
-    image: dice,
-    tags: ["React JS(Hooks,State)", "Styled Component",  "JavaScript (ES6+)"],
-    github: "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/03Dice",
-    webapp: "https://react-projects-wpbc.vercel.app/",
-  },
+
 
   {
-    id: 9,
+    id: 12,
     title: "Tick Tack toe",
     description:
       "A classic Tic Tac Toe game developed using HTML, CSS, and JavaScript. The game allows two players to take turns and checks for winning or draw conditions in real time.It features a responsive design and smooth user interaction.",
@@ -297,7 +330,7 @@ export const projects = [
     webapp: "https://js-projects-up8h.vercel.app/",
   },
   {
-    id: 10,
+    id: 13,
     title: "Rock paper scissor",
     description:
       "A classic Rock Paper Scissors game built using HTML, CSS, and JavaScript.The game allows users to play against the computer with real-time result display.It includes score tracking and dynamic UI updates for an engaging experience.",
@@ -308,7 +341,7 @@ export const projects = [
     webapp: "https://js-projects-fekb.vercel.app/",
   },
   {
-    id: 11,
+    id: 14,
     title: "BMI Calculator",
     description:
       "A simple web application that calculates Body Mass Index (BMI) based on user input, providing instant results using JavaScript logic and DOM manipulation.",
@@ -319,41 +352,19 @@ export const projects = [
     webapp: "https://js-projects-kappa-silk.vercel.app/",
   },
 
-  {
-    id: 12,
-    title: " Background Changer",
-    description:
-      "A React-based UI utility that dynamically changes background colors using state management and event handling, demonstrating core React concepts and clean component design.",
 
-    image: simplebg,
-    tags: ["React JS(Hooks,State)", "Tailwind Css"],
-    github:
-      "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/08BackgroundColorChanger",
-    webapp: "https://bgchanger-beta.vercel.app/",
-  },
- 
-  {
-    id: 13,
-    title: " Random password generator",
-    description:
-      "A tool that generates strong, secure, and customizable passwords instantly to enhance online security.",
-    image: password,
-    tags: ["React JS (Hooks,State)", "Tailwind CSS", ""],
-    github:
-      "https://github.com/Gayatri-Vishwa/reactProjects2/tree/main/09RandomPasswordGenerator",
-    webapp: "https://react-projects2-nine.vercel.app/",
-  },
-  {
-    id: 14,
-    title: "Food Zone",
-    description:
-      "FoodZoe is a food discovery app that lets users search for dishes or restaurants, providing quick and easy access to meal options.",
-    image: food,
-    tags: ["React JS (Hooks,State)", "Tailwind CSS", ""],
-    github:
-      "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/04FoodZone",
-    webapp: "https://react-projects-dyqt.vercel.app",
-  },
+  //   {
+  //   id: 12,
+  //   title: " Background Changer",
+  //   description:
+  //     "A React-based UI utility that dynamically changes background colors using state management and event handling, demonstrating core React concepts and clean component design.",
+
+  //   image: simplebg,
+  //   tags: ["React JS(Hooks,State)", "Tailwind Css"],
+  //   github:
+  //     "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/08BackgroundColorChanger",
+  //   webapp: "https://bgchanger-beta.vercel.app/",
+  // },
 
   // {
   //   id: 15,
