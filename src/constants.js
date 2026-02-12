@@ -166,8 +166,8 @@ export const projects = [
       "Gemini AI",
     ],
     github:
-      "https://github.com/Gayatri-Vishwa/JS-Projects/tree/main/BMI%20calculator",
-    webapp: "https://kappa.netlify.app/",
+      "https://github.com/Gayatri-Vishwa/ai-assistant-frontend",
+    webapp: "https://ai-assistant-frontend-ashen.vercel.app/",
   },
   {
     id: 1,
