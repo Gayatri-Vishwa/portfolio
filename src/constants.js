@@ -153,7 +153,7 @@ export const projects = [
     id: 0,
     title: "AI Virtual-Assistant",
     description:
-      "AI-powered voice assistant providing real-time responses using Gemini AI. Built with MERN stack and secure REST APIs."
+      "AI-powered voice assistant providing real-time responses using Gemini AI. Built with MERN stack and secure REST APIs.Deployed frontend on Vercel and backend on Render for reliable hosting."
    ,
     image: assistant,
     tags: [
