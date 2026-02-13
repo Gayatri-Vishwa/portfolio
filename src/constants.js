@@ -206,8 +206,8 @@ export const projects = [
       "MongoDB",
     ],
     github:
-      "https://github.com/Gayatri-Vishwa/JS-Projects/tree/main/BMI%20calculator",
-    webapp: "https://movie-kappa-app-jet.vercel.app/",
+      "https://github.com/Gayatri-Vishwa/todo_frontend",
+    webapp: "https://todo-frontend-snowy-rho.vercel.app/",
   },
 
   {
