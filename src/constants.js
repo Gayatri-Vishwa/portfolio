@@ -49,6 +49,7 @@ import rock from "./assets/projects/rock.png";
 import textto from "./assets/projects/texttospeech.png";
 import tick from "./assets/projects/tick.png";
 import todo from "./assets/projects/TODO.png";
+import blog from "./assets/projects/blog.png";
 // import translator from "./assets/projects/translator.png";
 import portfolio from "./assets/projects/portfolio.png";
 import bmi from "./assets/projects/bmi.png";
@@ -209,9 +210,28 @@ export const projects = [
       "https://github.com/Gayatri-Vishwa/todo_frontend",
     webapp: "https://todo-frontend-snowy-rho.vercel.app/",
   },
-
   {
     id: 3,
+    title: "Blog App",
+    description:
+
+    "Full-stack blogging platform built with React.js and Appwrite. Supports user authentication, CRUD operations, and real-time post management. Responsive UI built with Tailwind CSS. Deployed on Vercel.",
+    image: blog,
+    tags: [
+      "React JS",
+     
+     "Tailwind CSS",
+     "AppWrite API",
+     "CRUD Operations",
+     "Responsive Design"
+    ],
+    github:
+      "https://github.com/Gayatri-Vishwa/blog",
+    webapp: "https://blog-alpha-indol-99.vercel.app/",
+  },
+
+  {
+    id: 4,
     title: "Portfolio Website",
     description:
       "I built a responsive React portfolio using Tailwind CSS, optimized with lazy loading, and deployed on Vercel to showcase my projects and skills efficiently.",
@@ -221,7 +241,7 @@ export const projects = [
     webapp: "https://portfolio-azure-ten-jnem45fqrb.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Firebase Contact App ",
     description:
   "Real-time contact manager using React and Firebase Firestore for add, search, and delete operations."
@@ -232,7 +252,7 @@ export const projects = [
     webapp: "https://react-projects-zfgr.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Todo with redux",
     description:
  "Frontend-only task manager with React + Redux, enabling centralized state management and responsive UI."
@@ -243,7 +263,7 @@ export const projects = [
     webapp: "https://react-projects2-ixeu.vercel.app/",
   },
     {
-    id: 6,
+    id: 7,
     title: "Dice Game",
     description:
     "Interactive dice game with dynamic scoring and rules display, built with React and Styled Components."
@@ -253,7 +273,7 @@ export const projects = [
     webapp: "https://react-projects-wpbc.vercel.app/",
   },
     {
-    id: 7,
+    id: 8,
     title: "Currency converter",
     description:
    "Real-time currency conversion web app with live exchange rates and simple, intuitive interface."
@@ -264,7 +284,7 @@ export const projects = [
     webapp: "https://react-projects2-fyhm.vercel.app/",
   },
     {
-    id: 8,
+    id: 9,
     title: " Random password generator",
     description:
       "A tool that generates strong, secure, and customizable passwords instantly to enhance online security.",
@@ -275,7 +295,7 @@ export const projects = [
     webapp: "https://react-projects2-nine.vercel.app/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Food Zone",
     description:
       "FoodZoe is a food discovery app that lets users search for dishes or restaurants, providing quick and easy access to meal options.",
@@ -286,7 +306,7 @@ export const projects = [
     webapp: "https://react-projects-dyqt.vercel.app",
   },
   {
-    id: 10,
+    id: 11,
     title: "Text to Speech",
     description:
       "A web app that converts typed text into spoken audio using the Web Speech API’s SpeechSynthesis. Built with HTML, CSS, and JavaScript, it allows users to listen to text in real-time.",
@@ -304,7 +324,7 @@ export const projects = [
 
 
   {
-    id: 11,
+    id: 12,
     title: "Random Background Changer",
     description:
       "A React-based application that dynamically changes the background color using state and event handling, showcasing core React concepts.",
@@ -318,7 +338,7 @@ export const projects = [
 
 
   {
-    id: 12,
+    id: 13,
     title: "Tick Tack toe",
     description:
       "A classic Tic Tac Toe game developed using HTML, CSS, and JavaScript. The game allows two players to take turns and checks for winning or draw conditions in real time.It features a responsive design and smooth user interaction.",
@@ -330,7 +350,7 @@ export const projects = [
     webapp: "https://js-projects-up8h.vercel.app/",
   },
   {
-    id: 13,
+    id: 14,
     title: "Rock paper scissor",
     description:
       "A classic Rock Paper Scissors game built using HTML, CSS, and JavaScript.The game allows users to play against the computer with real-time result display.It includes score tracking and dynamic UI updates for an engaging experience.",
@@ -341,7 +361,7 @@ export const projects = [
     webapp: "https://js-projects-fekb.vercel.app/",
   },
   {
-    id: 14,
+    id: 15,
     title: "BMI Calculator",
     description:
       "A simple web application that calculates Body Mass Index (BMI) based on user input, providing instant results using JavaScript logic and DOM manipulation.",
