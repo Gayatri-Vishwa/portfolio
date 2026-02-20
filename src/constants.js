@@ -58,6 +58,7 @@ import todoredux from "./assets/projects/todoredux.png";
 // import simplebg from "./assets/projects/simplebg.png";
 import password from "./assets/projects/password.png";
 import hexbg from "./assets/projects/hexbg.png";
+import typingcheck from "./assets/projects/typingcheck.png";
 
 export const SkillsInfo = [
   {
@@ -222,8 +223,9 @@ export const projects = [
      
      "Tailwind CSS",
      "AppWrite API",
+     "tinyMCE Editor",
      "CRUD Operations",
-     "Responsive Design"
+    
     ],
     github:
       "https://github.com/Gayatri-Vishwa/blog",
@@ -282,6 +284,17 @@ export const projects = [
     github:
       "https://github.com/Gayatri-Vishwa/reactProjects2/tree/main/11CurrencyConverter",
     webapp: "https://react-projects2-fyhm.vercel.app/",
+  },
+    {
+    id: 8,
+    title: "Typing Speed Test",
+    description:
+   "A web app that measures typing speed and accuracy in real-time, providing instant feedback and performance metrics to help users improve their typing skills."
+   ,image: typingcheck,
+    tags: ["React.js", "JavaScript (ES6+)", "Inline CSS/JS Styles"],
+    github:
+      "https://github.com/Gayatri-Vishwa/reactProjects2/tree/main/typingCheck",
+    webapp: "https://react-projects2-b5iu.vercel.app/",
   },
     {
     id: 9,
