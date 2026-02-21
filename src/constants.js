@@ -112,7 +112,7 @@ export const SkillsInfo = [
       { name: "Compass", logo: mcLogo },
       { name: "Vercel", logo: vercelLogo },
       // { name: 'Netlify', logo: netlifyLogo },
-      { name: "Figma", logo: figmaLogo },
+      // { name: "Figma", logo: figmaLogo },
     ],
   },
 ];
