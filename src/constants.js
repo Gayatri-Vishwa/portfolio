@@ -25,7 +25,7 @@ import pythonLogo from "./assets/tech_logo/python.png";
 import gitLogo from "./assets/tech_logo/git.png";
 import githubLogo from "./assets/tech_logo/github.png";
 import vscodeLogo from "./assets/tech_logo/vscode.png";
-// import postmanLogo from './assets/tech_logo/postman.png';
+import postmanLogo from './assets/tech_logo/postman.png';
 import mcLogo from "./assets/tech_logo/mc.png";
 import figmaLogo from "./assets/tech_logo/figma.png";
 // import netlifyLogo from './assets/tech_logo/netlify.png';
@@ -108,7 +108,7 @@ export const SkillsInfo = [
       { name: "Git", logo: gitLogo },
       { name: "GitHub", logo: githubLogo },
       { name: "VS Code", logo: vscodeLogo },
-      // { name: 'Postman', logo: postmanLogo },
+      { name: 'Postman', logo: postmanLogo },
       { name: "Compass", logo: mcLogo },
       { name: "Vercel", logo: vercelLogo },
       // { name: 'Netlify', logo: netlifyLogo },
