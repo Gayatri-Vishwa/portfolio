@@ -188,8 +188,8 @@ export const projects = [
       "JavaScript",
     ],
     github:
-      "https://github.com/Gayatri-Vishwa/JS-Projects/tree/main/BMI%20calculator",
-    webapp: "https://csprep.kappa.app/",
+      "https://github.com/Gayatri-Vishwa/grocery-frontend",
+    webapp: "https://grocery-frontend-iota.vercel.app/",
   },
   {
     id: 2,
