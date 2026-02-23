@@ -17,6 +17,8 @@ import expressjsLogo from "./assets/tech_logo/express.png";
 import mysqlLogo from "./assets/tech_logo/mysql.png";
 import mongodbLogo from "./assets/tech_logo/mongodb.png";
 import firebaseLogo from "./assets/tech_logo/firebase.png";
+import appwrite from "./assets/tech_logo/appwrite.webp";
+
 import cLogo from "./assets/tech_logo/c.png";
 import cppLogo from "./assets/tech_logo/cpp.png";
 import javaLogo from "./assets/tech_logo/java.png";
@@ -87,6 +89,7 @@ export const SkillsInfo = [
       { name: "MySQL", logo: mysqlLogo },
       { name: "MongoDB", logo: mongodbLogo },
       { name: "Firebase", logo: firebaseLogo },
+      { name: "Appwrite", logo: appwrite },
       // { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
