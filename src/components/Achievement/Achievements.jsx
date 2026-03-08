@@ -16,7 +16,7 @@ const Achievements = () => {
   return (
     <section
       id="achievements"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative overflow-hidden"
+      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[18vw] font-sans relative overflow-hidden"
       style={{
         backgroundImage: `
           linear-gradient(38.73deg, rgba(204,0,187,0.15) 0%, rgba(201,32,184,0) 50%),

@@ -9,7 +9,7 @@ function About() {
   return (
     <section
       id="about"
-      className="py-4 px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32  "
+      className="py-4 px-[7vw] lg:px-[18vw] font-sans mt-16 md:mt-24 lg:mt-32  "
     >
       <div className="flex flex-col-reverse md:flex-row justify-center items-center gap-8">
         {/* Left Side */}
@@ -35,15 +35,7 @@ function About() {
               delaySpeed={1000}
             />
           </h3>
-          {/* About Paragraph */}
-          {/* <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-6 leading-relaxed">
-            I’m a passionate Full Stack MERN Developer and MCA student who
-            enjoys building responsive and user-friendly web applications. As a
-            fresher, I focus on learning by building real-world projects,
-            writing clean and maintainable code, and continuously improving my
-            development skills. I’m eager to grow as a developer and contribute
-            to meaningful products.
-          </p> */}
+     
  <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-6 leading-relaxed">
   I am a Full Stack MERN Developer and MCA student with experience in building
   responsive and scalable web applications using React, Node.js, Express, and

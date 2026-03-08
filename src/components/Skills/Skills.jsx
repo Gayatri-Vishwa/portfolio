@@ -6,7 +6,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans bg-skills-gradient clip-path-custom"
+      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[18vw] font-sans bg-skills-gradient clip-path-custom"
          style={{
         backgroundImage: `
           linear-gradient(38.73deg, rgba(204,0,187,0.15) 0%, rgba(201,32,184,0) 50%),
