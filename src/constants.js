@@ -62,6 +62,15 @@ import password from "./assets/projects/password.png";
 import hexbg from "./assets/projects/hexbg.png";
 import typingcheck from "./assets/projects/typingcheck.png";
 
+//achievements img
+import hackathon from "./assets/achievements/hackathon1.jpeg"
+import hc from "./assets/achievements/hc.jpeg"
+import cm from "./assets/achievements/cm.jpeg"
+import cmc from "./assets/achievements/cmc.jpeg"
+import trophy from "./assets/achievements/trophy.jpeg"
+import rank8 from "./assets/achievements/rank8.jpeg"
+// import hackathon from "./assets/achievements/hackathonmain.jpeg"
+
 export const SkillsInfo = [
   {
     title: "Frontend",
@@ -465,3 +474,79 @@ export const education = [
     desc: "Completed Class 10 with Science & Computers, achieved district topper rank, showcasing early academic excellence.",
   },
 ];
+
+
+
+
+export const achievements = [
+  {
+    id: 1,
+    title: "Zonex Hackathon – 2nd Place",
+    description:
+      "Secured 2nd position in the Zonex Hackathon by developing an innovative web-based project with my team.",
+    image: hackathon,
+    certificate: hc,
+    tags: ["Year-2026"]
+  },
+
+  {
+    id: 2,
+    title: "District Topper Award",
+    description:
+      "Honored by the Chief Minister of Uttar Pradesh, Yogi Adityanath, for achieving top academic performance in the district.",
+    image: cm,
+    certificate: cmc,
+    tags: ["Year-2020"]
+  },
+
+  {
+    id: 3,
+    title: "BCA – 8th University Rank",
+    description:
+      "Secured 8th position in the University Merit List during the BCA program.",
+    image: trophy,
+    certificate: rank8,
+    tags: ["Year-2024"]
+  }
+];
+
+
+
+
+
+
+
+
+
+
+
+
+// export const achievements = [
+//   {
+//     id: 1,
+//     title: "Hackathon – 2nd Position",
+//     description:
+//       "Secured 2nd place in Zonex Hackathon by developing an innovative project.",
+//     image: hackathon,
+//     certificate:hc,
+//     tags: ["Hackathon", "2026"]
+//   },
+//     {
+//     id: 2,
+//     title: "District topper Award",
+//     description:
+//       "Achieved 8th rank in the University Merit List during BCA.",
+//     image: cm,
+//     certificate: cmc,
+//     tags: ["Award", "2020"]
+//   },
+//   {
+//     id: 3,
+//     title: "BCA – 8th Rank (University Merit)",
+//     description:
+//       "Achieved 8th rank in the University Merit List during BCA.",
+//     image: trophy,
+//     certificate: rank8,
+//     tags: ["University Rank", "Academic"]
+//   }
+// ];

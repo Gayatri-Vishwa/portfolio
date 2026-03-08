@@ -15,6 +15,7 @@ const Work = lazy(() => import("./components/Work/Work"));
 const Education = lazy(() => import("./components/Education/Education"));
 const Contact = lazy(() => import("./components/Contact/Contact"));
 const Footer = lazy(() => import("./components/Footer/Footer"));
+const Achievements=lazy(()=>import("./components/Achievement/Achievements"))
 
 function App() {
 
@@ -38,7 +39,9 @@ function App() {
         >
         <Skills />
         <Experience />
+           <Achievements/>
         <Work />
+     
         <Education />
         <Contact />
         <Footer />
