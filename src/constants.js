@@ -173,11 +173,12 @@ export const projects = [
     tags: [
       "React.js",
       "Tailwind CSS",
-      "Node.js",
+   
       "Express.js",
       "MongoDB",
-      "REST API",
-      "Gemini AI",
+         "Node.js",
+      "GeminiAI, REST API"
+    
     ],
     github:
       "https://github.com/Gayatri-Vishwa/ai-assistant-frontend",
@@ -197,7 +198,7 @@ export const projects = [
       "Express",
       "REST API",
      "Tailwind CSS",
-      "JavaScript",
+     
     ],
     github:
       "https://github.com/Gayatri-Vishwa/grocery-frontend",
@@ -212,7 +213,6 @@ export const projects = [
     image: todo,
     tags: [
       "React JS",
-      "REST API",
      "Tailwind CSS",
       "JavaScript",
       "Node.js",
@@ -515,38 +515,3 @@ export const achievements = [
 
 
 
-
-
-
-
-
-
-// export const achievements = [
-//   {
-//     id: 1,
-//     title: "Hackathon – 2nd Position",
-//     description:
-//       "Secured 2nd place in Zonex Hackathon by developing an innovative project.",
-//     image: hackathon,
-//     certificate:hc,
-//     tags: ["Hackathon", "2026"]
-//   },
-//     {
-//     id: 2,
-//     title: "District topper Award",
-//     description:
-//       "Achieved 8th rank in the University Merit List during BCA.",
-//     image: cm,
-//     certificate: cmc,
-//     tags: ["Award", "2020"]
-//   },
-//   {
-//     id: 3,
-//     title: "BCA – 8th Rank (University Merit)",
-//     description:
-//       "Achieved 8th rank in the University Merit List during BCA.",
-//     image: trophy,
-//     certificate: rank8,
-//     tags: ["University Rank", "Academic"]
-//   }
-// ];
