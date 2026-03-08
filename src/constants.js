@@ -65,7 +65,7 @@ import typingcheck from "./assets/projects/typingcheck.png";
 //achievements img
 import hackathon from "./assets/achievements/hackathon1.jpeg"
 import hc from "./assets/achievements/hc.jpeg"
-import cm from "./assets/achievements/cm.jpeg"
+import cmm from "./assets/achievements/cmm.jpeg"
 import cmc from "./assets/achievements/cmc.jpeg"
 import trophy from "./assets/achievements/trophy.jpeg"
 import rank8 from "./assets/achievements/rank8.jpeg"
@@ -494,7 +494,7 @@ export const achievements = [
     title: "District Topper Award",
     description:
       "Honored by the Chief Minister of Uttar Pradesh, Yogi Adityanath, for achieving top academic performance in the district.",
-    image: cm,
+    image: cmm,
     certificate: cmc,
     tags: ["Year-2020"]
   },
