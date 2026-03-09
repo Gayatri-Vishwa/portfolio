@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { projects } from "../../constants";
 import BlurBlob from "../../BlurBlob";
+import { FaGithub } from "react-icons/fa";
+import { FiExternalLink } from "react-icons/fi";
 
 const Work = () => {
   const [selectedProject, setSelectedProject] = useState(null);
   const [visibleCount, setVisibleCount] = useState(6);
-
 
   const handleOpenModal = (project) => {
     setSelectedProject(project);
@@ -19,16 +20,13 @@ const Work = () => {
     <section
       id="work"
       className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[18vw] font-sans relative  overflow-hidden"
-      
- 
-            style={{
+      style={{
         backgroundImage: `
           linear-gradient(38.73deg, rgba(204,0,187,0.15) 0%, rgba(201,32,184,0) 50%),
           linear-gradient(141.27deg, rgba(0,70,209,0) 50%, rgba(0,70,209,0.15) 100%)
         `,
       }}
     >
-
       {/* Section Title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">PROJECTS</h2>
@@ -43,23 +41,44 @@ const Work = () => {
       <div className="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {/* {projects.map((project) => ( */}
         {projects.slice(0, visibleCount).map((project) => (
-
           <div
             key={project.id}
             onClick={() => handleOpenModal(project)}
             className="border border-white bg-gray-900 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden cursor-pointer hover:shadow-purple-500/50 hover:-translate-y-2 transition-transform duration-300"
           >
-            <div className="p-4">
+            {/* <div className="p-4">
               <img
                 src={project.image}
                 alt={project.title}
                 className="w-full h-48 object-cover rounded-xl"
               />
-            </div>
-            <div className="p-6">
-              <h3 className="text-2xl font-bold text-white mb-2">
-                {project.title}
-              </h3>
+              <div className="flex justify-between items-start m-2">
+                <h3 className="text-2xl font-bold text-white">
+                  {project.title}
+                </h3>
+              </div>
+               <div className="p-6">
+              <div className="flex gap-3 text-white text-xl">
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="hover:text-purple-500 transition"
+                >
+                  <FaGithub />
+                </a>
+
+                <a
+                  href={project.webapp}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="hover:text-purple-500 transition"
+                >
+                  <FiExternalLink />
+                </a>
+              </div>
               <p className="text-gray-500 mb-4 pt-4 line-clamp-3">
                 {project.description}
               </p>
@@ -74,31 +93,83 @@ const Work = () => {
                 ))}
               </div>
             </div>
+            </div> */}
+           
+<div className="p-4">
+  <img
+    src={project.image}
+    alt={project.title}
+    className="w-full h-48 object-cover rounded-xl"
+  />
+
+  <div className="flex justify-between items-center mt-3">
+    <h3 className="text-xl font-bold text-white">
+      {project.title}
+    </h3>
+
+    <div className="flex gap-3 text-white text-xl">
+      <a
+        href={project.github}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={(e) => e.stopPropagation()}
+        className="hover:text-purple-500 transition"
+      >
+        <FaGithub />
+      </a>
+
+      <a
+        href={project.webapp}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={(e) => e.stopPropagation()}
+        className="hover:text-purple-500 transition"
+      >
+        <FiExternalLink />
+      </a>
+    </div>
+  </div>
+
+  <p className="text-gray-500 mb-4 pt-4 line-clamp-3">
+    {project.description}
+  </p>
+
+  <div className="mb-4">
+    {project.tags.map((tag, index) => (
+      <span
+        key={index}
+        className="inline-block bg-[#251f38] text-xs font-semibold text-purple-500 rounded-full px-2 py-1 mr-2 mb-2"
+      >
+        {tag}
+      </span>
+    ))}
+  </div>
+</div>
+           
           </div>
         ))}
       </div>
 
       {/* ============================================================= */}
       {projects.length > 6 && (
-  <div className="flex justify-center mt-16">
-    <button
-      onClick={() =>
-        setVisibleCount(visibleCount === 6 ? projects.length : 6)
-      }
-      // className="px-8 py-3 text-lg font-semibold rounded-xl
-      // bg-purple-600 text-white hover:bg-purple-800 transition-all"
-        className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
+        <div className="flex justify-center mt-16">
+          <button
+            onClick={() =>
+              setVisibleCount(visibleCount === 6 ? projects.length : 6)
+            }
+            // className="px-8 py-3 text-lg font-semibold rounded-xl
+            // bg-purple-600 text-white hover:bg-purple-800 transition-all"
+            className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{
-          
               background: "linear-gradient(90deg, #3b1d8f, #2e1d4d)",
               boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
             }}
-    >
-      {visibleCount === 6 ? "Show More" : "Show Less"}
-    </button>
-  </div>
-)}
-{/* =================================================================================== */}
+          >
+            {visibleCount === 6 ? "Show More" : "Show Less"}
+          </button>
+        </div>
+      )}
+      {/* =================================================================================== */}
 
       {/* Modal Container */}
       {selectedProject && (

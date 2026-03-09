@@ -137,7 +137,7 @@ export const experiences = [
     role2: "(Hands-on Training)",
     date: "Aug 2025 – Present",
     desc: [
-      "Built and deployed full-stack MERN applications.",
+     "Developed and deployed full-stack MERN applications with scalable architecture.",
       "Designed RESTful APIs using MVC architecture.",
       "Implemented JWT authentication and role-based access control.",
       "Developed complete CRUD features for real-world use cases.",
@@ -165,7 +165,8 @@ export const experiences = [
 export const projects = [
   {
     id: 0,
-    title: "AI Virtual-Assistant",
+    // title: "AI Virtual-Assistant",
+    title: "AI-Powered Voice Assistant",
     description:
       "AI-powered voice assistant providing real-time responses using Gemini AI. Built with MERN stack and secure REST APIs.Deployed frontend on Vercel and backend on Render for reliable hosting."
    ,
@@ -188,9 +189,9 @@ export const projects = [
     id: 1,
     title: "E-Commerce Website",
 
-    description:
-        "Full-stack e-commerce app with product browsing, cart management, and secure checkout using MERN stack.",
-    image: ecommerce,
+   description:
+"Full-stack e-commerce application built using the MERN stack, featuring product browsing, cart management, and secure checkout functionality. Implemented JWT-based authentication with protected routes and role-based access control to ensure secure user access and data protection.",
+image: ecommerce,
     tags: [
       "React JS",
       "Node.js",
@@ -198,32 +199,14 @@ export const projects = [
       "Express",
       "REST API",
      "Tailwind CSS",
+     "JWT Authentication"
      
     ],
     github:
       "https://github.com/Gayatri-Vishwa/grocery-frontend",
     webapp: "https://grocery-frontend-iota.vercel.app/",
   },
-  {
-    id: 2,
-    title: "Todo App",
-    description:
-
-    "Full-stack task management app with CRUD operations, persistent storage, and responsive UI using MERN stack.",
-    image: todo,
-    tags: [
-      "React JS",
-     "Tailwind CSS",
-      "JavaScript",
-      "Node.js",
-      "Express",
-      "MongoDB",
-    ],
-    github:
-      "https://github.com/Gayatri-Vishwa/todo_frontend",
-    webapp: "https://todo-frontend-snowy-rho.vercel.app/",
-  },
-  {
+   {
     id: 3,
     title: "Blog App",
     description:
@@ -243,6 +226,27 @@ export const projects = [
       "https://github.com/Gayatri-Vishwa/blog",
     webapp: "https://blog-alpha-indol-99.vercel.app/",
   },
+  {
+    id: 2,
+    title: "Todo App",
+    description:
+
+    "Full-stack task management app with CRUD operations, persistent storage, and responsive UI using MERN stack.",
+    image: todo,
+    tags: [
+      "React JS",
+     "Tailwind CSS",
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "JWT Authentication"
+    ],
+    github:
+      "https://github.com/Gayatri-Vishwa/todo_frontend",
+    webapp: "https://todo-frontend-snowy-rho.vercel.app/",
+  },
+ 
 
   {
     id: 4,
