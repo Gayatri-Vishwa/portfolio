@@ -477,39 +477,37 @@ export const education = [
 
 
 
-
 export const achievements = [
   {
     id: 1,
-    title: "Zonex Hackathon – 2nd Place",
+    title: "Zonex Hackathon – 2nd Position",
     description:
-      "Secured 2nd position in the Zonex Hackathon by developing an innovative web-based project with my team.",
+      "Led a team at the Zonex Hackathon held at SD College of Engineering & Technology, organized by TechMNHub, and secured 2nd position by developing an innovative web-based solution.",
     image: hackathon,
     certificate: hc,
     tags: ["Year-2026"]
   },
 
-  {
-    id: 2,
-    title: "District Topper Award",
-    description:
-      "Honored by the Chief Minister of Uttar Pradesh, Yogi Adityanath, for achieving top academic performance in the district.",
-    image: cmm,
-    certificate: cmc,
-    tags: ["Year-2020"]
-  },
+ {
+  id: 2,
+  title: "District Topper – CM Felicitation",
+  description:
+    "Honored in Lucknow by the Chief Minister of Uttar Pradesh for achieving top academic performance in the district.",
+  image: cmm,
+  certificate: cmc,
+  tags: ["Year-2019"]
+},
 
   {
     id: 3,
-    title: "BCA – 8th University Rank",
+    title: "BCA – University Merit Rank 8",
     description:
-      "Secured 8th position in the University Merit List during the BCA program.",
+      "Secured 8th position in the university merit list during the Bachelor of Computer Applications program.",
     image: trophy,
     certificate: rank8,
     tags: ["Year-2024"]
   }
 ];
-
 
 
 
