@@ -38,6 +38,16 @@ const Navbar = () => {
     { id: "contact", label: "Contact" },
     // { id: " ", label: "  " },
   ];
+  const menuItems2 = [
+    { id: "about", label: "About" },
+    { id: "skills", label: " Skills " },
+    { id: "experience", label: "Experience " },
+      { id: "achievements", label: " Achievements " },
+    { id: "work", label: " Projects " },
+    // { id: "education", label: "Education  " },
+    { id: "contact", label: "Contact" },
+    // { id: " ", label: "  " },
+  ];
 
   return (
     <nav
@@ -59,7 +69,7 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8 text-gray-300">
-          {menuItems.map((item) => (
+          {menuItems2.map((item) => (
             <li
               key={item.id}
               className={`cursor-pointer hover:text-[#8245ec] ${
@@ -74,7 +84,9 @@ const Navbar = () => {
         </ul>
 
         {/* Social Icons */}
-        <div className="hidden md:flex space-x-4">
+        {/* <div className="hidden md:flex space-x-4"> */}
+          <div className="flex space-x-4 border border-red-500">
+        
           <a
             href="https://github.com/gayatri-vishwa"
             target="_blank"
@@ -130,24 +142,13 @@ const Navbar = () => {
                   </li>
                 ))}
 
-<div className="hidden md:flex space-x-4 border border-red-500">
-  <a
-    href="https://github.com/gayatri-vishwa"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <FaGithub size={24} />
-  </a>
 
-  <a
-    href="https://www.linkedin.com/in/gayatri-v-674412280"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <FaLinkedin size={24} />
-  </a>
-</div>
-                {/* <div className="flex space-x-4 mb-9">
+
+
+
+             
+                <div className="flex space-x-4 mb-9">
+               
                   <a
                     href="https://github.com/gayatri-vishwa"
                     target="_blank"
@@ -165,7 +166,7 @@ const Navbar = () => {
                   >
                     <FaLinkedin size={24} />
                   </a>
-                </div> */}
+                </div>
               </ul>
             </div>
          
