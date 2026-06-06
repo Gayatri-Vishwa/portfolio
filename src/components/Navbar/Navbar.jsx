@@ -84,8 +84,6 @@ const Navbar = () => {
             <FaGithub size={24} />
           </a>
           <a
-            // href="https://www.linkedin.com/in/gayatri-v-674412280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-            // href="https://www.linkedin.com/in/gayatri-vishwa"
             href="https://www.linkedin.com/in/gayatri-v-674412280"
             target="_blank"
             rel="noopener noreferrer"
@@ -131,7 +129,25 @@ const Navbar = () => {
                     </button>
                   </li>
                 ))}
-                <div className="flex space-x-4 mb-9">
+
+<div className="hidden md:flex space-x-4 border border-red-500">
+  <a
+    href="https://github.com/gayatri-vishwa"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaGithub size={24} />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/gayatri-v-674412280"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FaLinkedin size={24} />
+  </a>
+</div>
+                {/* <div className="flex space-x-4 mb-9">
                   <a
                     href="https://github.com/gayatri-vishwa"
                     target="_blank"
@@ -149,7 +165,7 @@ const Navbar = () => {
                   >
                     <FaLinkedin size={24} />
                   </a>
-                </div>
+                </div> */}
               </ul>
             </div>
          
