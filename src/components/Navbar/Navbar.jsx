@@ -85,7 +85,7 @@ const Navbar = () => {
 
         {/* Social Icons */}
         {/* <div className="hidden md:flex space-x-4"> */}
-          <div className="flex space-x-4 border border-red-500">
+          <div className="flex space-x-4  ml-2">
         
           <a
             href="https://github.com/gayatri-vishwa"

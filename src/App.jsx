@@ -40,7 +40,7 @@ function App() {
         <Skills />
         <Experience />
            <Achievements/>
-        <Work />
+        <Work /> //projects
      
         <Education />
         <Contact />
