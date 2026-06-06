@@ -84,8 +84,8 @@ const Navbar = () => {
         </ul>
 
         {/* Social Icons */}
-        {/* <div className="hidden md:flex space-x-4"> */}
-          <div className="flex space-x-4  ml-2">
+        <div className="hidden md:flex space-x-4 ml-2">
+          {/* <div className="flex space-x-4  ml-2"> */}
         
           <a
             href="https://github.com/gayatri-vishwa"
@@ -105,7 +105,7 @@ const Navbar = () => {
           </a>
         </div>
 
-        {/* Mobile Menu Icon */}
+       {/* ////// Mobile Menu Icon */}
         <div className="md:hidden">
           {isOpen ? (
             <FiX
