@@ -169,8 +169,10 @@ export const projects = [
 
     title: "Real-Time Chat Application",
     description:
-    "Developed a full-stack real-time chat application using the MERN stack with Socket.io, enabling instant messaging, live typing indicators, and user presence tracking. Implemented an admin dashboard to monitor chat activity with interactive charts and analytics for users and messages, improving system visibility and control."
-    , image: chatapp,
+    // "Developed a full-stack real-time chat application using the MERN stack with Socket.io, enabling instant messaging, live typing indicators, and user presence tracking. Implemented an admin dashboard to monitor chat activity with interactive charts and analytics for users and messages, improving system visibility and control."
+    // , 
+    "Real-time chat application with Socket.io, JWT authentication, typing indicators, file sharing, and an admin dashboard featuring analytics and charts. Built using the MERN stack.",
+    image: chatapp,
     tags: [
       "React.js",
       "Redux Toolkit",
@@ -184,8 +186,8 @@ export const projects = [
       // "Node.js",
    
     ],
-    // github:
-    //   "https://github.com/Gayatri-Vishwa/ai-assistant-frontend",
+    github:"https://github.com/Gayatri-Vishwa/ChatApp_Frontend",
+  
     // webapp: "https://ai-assistant-frontend-ashen.vercel.app/",
   },
   {
