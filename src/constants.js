@@ -458,7 +458,7 @@ export const education = [
     school: "S.D College of Management Studies, MZN",
     school2: "Affiliated to DR. APJ A.K.T.U ,Lucknow",
     date: "Sept 2024 - July 2026",
-    grade: "7.81 CGPA",
+    grade: "8.3 CGPA",
     degree: "(MCA)",
     desc: "Master's in Computer Applications focusing on Web Development, Data Structures, OOP, and Software Engineering. Gained practical skills in building responsive applications.",
   },
