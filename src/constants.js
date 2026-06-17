@@ -27,7 +27,7 @@ import pythonLogo from "./assets/tech_logo/python.png";
 import gitLogo from "./assets/tech_logo/git.png";
 import githubLogo from "./assets/tech_logo/github.png";
 import vscodeLogo from "./assets/tech_logo/vscode.png";
-import postmanLogo from './assets/tech_logo/postman.png';
+import postmanLogo from "./assets/tech_logo/postman.png";
 import mcLogo from "./assets/tech_logo/mc.png";
 import figmaLogo from "./assets/tech_logo/figma.png";
 // import netlifyLogo from './assets/tech_logo/netlify.png';
@@ -52,6 +52,7 @@ import textto from "./assets/projects/texttospeech.png";
 import tick from "./assets/projects/tick.png";
 import todo from "./assets/projects/TODO.png";
 import blog from "./assets/projects/blog.png";
+import chatapp from "./assets/projects/chatapp.png";
 // import translator from "./assets/projects/translator.png";
 import portfolio from "./assets/projects/portfolio.png";
 import bmi from "./assets/projects/bmi.png";
@@ -63,12 +64,12 @@ import hexbg from "./assets/projects/hexbg.png";
 import typingcheck from "./assets/projects/typingcheck.png";
 
 //achievements img
-import hackathon from "./assets/achievements/hackathon1.jpeg"
-import hc from "./assets/achievements/hc.jpeg"
-import cmm from "./assets/achievements/cmm.jpeg"
-import cmc from "./assets/achievements/cmc.jpeg"
-import trophy from "./assets/achievements/trophy.jpeg"
-import rank8 from "./assets/achievements/rank8.jpeg"
+import hackathon from "./assets/achievements/hackathon1.jpeg";
+import hc from "./assets/achievements/hc.jpeg";
+import cmm from "./assets/achievements/cmm.jpeg";
+import cmc from "./assets/achievements/cmc.jpeg";
+import trophy from "./assets/achievements/trophy.jpeg";
+import rank8 from "./assets/achievements/rank8.jpeg";
 // import hackathon from "./assets/achievements/hackathonmain.jpeg"
 
 export const SkillsInfo = [
@@ -120,7 +121,7 @@ export const SkillsInfo = [
       { name: "Git", logo: gitLogo },
       { name: "GitHub", logo: githubLogo },
       { name: "VS Code", logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
+      { name: "Postman", logo: postmanLogo },
       { name: "Compass", logo: mcLogo },
       { name: "Vercel", logo: vercelLogo },
       // { name: 'Netlify', logo: netlifyLogo },
@@ -137,7 +138,7 @@ export const experiences = [
     role2: "(Hands-on Training)",
     date: "Aug 2025 – Present",
     desc: [
-     "Developed and deployed full-stack MERN applications with scalable architecture.",
+      "Developed and deployed full-stack MERN applications with scalable architecture.",
       "Designed RESTful APIs using MVC architecture.",
       "Implemented JWT authentication and role-based access control.",
       "Developed complete CRUD features for real-world use cases.",
@@ -164,89 +165,102 @@ export const experiences = [
 
 export const projects = [
   {
+    id: 19,
+
+    title: "Real-Time Chat Application",
+    description:
+    "Developed a full-stack real-time chat application using the MERN stack with Socket.io, enabling instant messaging, live typing indicators, and user presence tracking. Implemented an admin dashboard to monitor chat activity with interactive charts and analytics for users and messages, improving system visibility and control."
+    , image: chatapp,
+    tags: [
+      "React.js",
+      "Redux Toolkit",
+      "RTK Query","Framer Motion",
+      "Material UI (MUI) / Tailwind CSS",
+      
+      "Express.js",
+      "Socket.io","Node.js",
+"JWT Authentication",
+      "MongoDB",
+      // "Node.js",
+   
+    ],
+    // github:
+    //   "https://github.com/Gayatri-Vishwa/ai-assistant-frontend",
+    // webapp: "https://ai-assistant-frontend-ashen.vercel.app/",
+  },
+  {
     id: 0,
     // title: "AI Virtual-Assistant",
     title: "AI-Powered Voice Assistant",
     description:
-      "AI-powered voice assistant providing real-time responses using Gemini AI. Built with MERN stack and secure REST APIs.Deployed frontend on Vercel and backend on Render for reliable hosting."
-   ,
+      "AI-powered voice assistant providing real-time responses using Gemini AI. Built with MERN stack and secure REST APIs.Deployed frontend on Vercel and backend on Render for reliable hosting.",
     image: assistant,
     tags: [
       "React.js",
       "Tailwind CSS",
-   
+
       "Express.js",
       "MongoDB",
-         "Node.js",
-      "GeminiAI, REST API"
-    
+      "Node.js",
+      "GeminiAI, REST API",
     ],
-    github:
-      "https://github.com/Gayatri-Vishwa/ai-assistant-frontend",
+    github: "https://github.com/Gayatri-Vishwa/ai-assistant-frontend",
     webapp: "https://ai-assistant-frontend-ashen.vercel.app/",
   },
   {
     id: 1,
     title: "E-Commerce Website",
 
-   description:
-"Full-stack e-commerce application built using the MERN stack, featuring product browsing, cart management, and secure checkout functionality. Implemented JWT-based authentication with protected routes and role-based access control to ensure secure user access and data protection.",
-image: ecommerce,
+    description:
+      "Full-stack e-commerce application built using the MERN stack, featuring product browsing, cart management, and secure checkout functionality. Implemented JWT-based authentication with protected routes and role-based access control to ensure secure user access and data protection.",
+    image: ecommerce,
     tags: [
       "React JS",
       "Node.js",
       "MongoDB",
       "Express",
       "REST API",
-     "Tailwind CSS",
-     "JWT Authentication"
-     
+      "Tailwind CSS",
+      "JWT Authentication",
     ],
-    github:
-      "https://github.com/Gayatri-Vishwa/grocery-frontend",
+    github: "https://github.com/Gayatri-Vishwa/grocery-frontend",
     webapp: "https://grocery-frontend-iota.vercel.app/",
   },
-   {
+  {
     id: 3,
     title: "Blog App",
     description:
-
-    "Full-stack blogging platform built with React.js and Appwrite. Supports user authentication, CRUD operations, and real-time post management. Responsive UI built with Tailwind CSS. Deployed on Vercel.",
+      "Full-stack blogging platform built with React.js and Appwrite. Supports user authentication, CRUD operations, and real-time post management. Responsive UI built with Tailwind CSS. Deployed on Vercel.",
     image: blog,
     tags: [
       "React JS",
-     
-     "Tailwind CSS",
-     "AppWrite API",
-     "tinyMCE Editor",
-     "CRUD Operations",
-    
+
+      "Tailwind CSS",
+      "AppWrite API",
+      "tinyMCE Editor",
+      "CRUD Operations",
     ],
-    github:
-      "https://github.com/Gayatri-Vishwa/blog",
+    github: "https://github.com/Gayatri-Vishwa/blog",
     webapp: "https://blog-alpha-indol-99.vercel.app/",
   },
   {
     id: 2,
     title: "Todo App",
     description:
-
-    "Full-stack task management app with CRUD operations, persistent storage, and responsive UI using MERN stack.",
+      "Full-stack task management app with CRUD operations, persistent storage, and responsive UI using MERN stack.",
     image: todo,
     tags: [
       "React JS",
-     "Tailwind CSS",
+      "Tailwind CSS",
       "JavaScript",
       "Node.js",
       "Express",
       "MongoDB",
-      "JWT Authentication"
+      "JWT Authentication",
     ],
-    github:
-      "https://github.com/Gayatri-Vishwa/todo_frontend",
+    github: "https://github.com/Gayatri-Vishwa/todo_frontend",
     webapp: "https://todo-frontend-snowy-rho.vercel.app/",
   },
- 
 
   {
     id: 4,
@@ -262,8 +276,8 @@ image: ecommerce,
     id: 5,
     title: "Firebase Contact App ",
     description:
-  "Real-time contact manager using React and Firebase Firestore for add, search, and delete operations."
-    , image: fire,
+      "Real-time contact manager using React and Firebase Firestore for add, search, and delete operations.",
+    image: fire,
     tags: ["React JS", "Firebase (Firestore)", "Tailwind CSS"],
     github:
       "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/05fireBaseContactApp",
@@ -273,46 +287,46 @@ image: ecommerce,
     id: 6,
     title: "Todo with redux",
     description:
- "Frontend-only task manager with React + Redux, enabling centralized state management and responsive UI."
-      ,image: todoredux,
+      "Frontend-only task manager with React + Redux, enabling centralized state management and responsive UI.",
+    image: todoredux,
     tags: ["React JS", "Tailwind CSS", "Redux-toolkit"],
     github:
       "https://github.com/Gayatri-Vishwa/reactProjects2/tree/main/10TodoWithRedux",
     webapp: "https://react-projects2-ixeu.vercel.app/",
   },
-    {
+  {
     id: 7,
     title: "Dice Game",
     description:
-    "Interactive dice game with dynamic scoring and rules display, built with React and Styled Components."
-      ,image: dice,
+      "Interactive dice game with dynamic scoring and rules display, built with React and Styled Components.",
+    image: dice,
     tags: ["React JS(Hooks,State)", "Styled Component", "JavaScript (ES6+)"],
     github: "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/03Dice",
     webapp: "https://react-projects-wpbc.vercel.app/",
   },
-    {
+  {
     id: 8,
     title: "Currency converter",
     description:
-   "Real-time currency conversion web app with live exchange rates and simple, intuitive interface."
-   ,image: currency,
-    tags: ["React.JS", "Tailwind CSS","JavaScript(ES6+)", "ExchangeRate-API "],
+      "Real-time currency conversion web app with live exchange rates and simple, intuitive interface.",
+    image: currency,
+    tags: ["React.JS", "Tailwind CSS", "JavaScript(ES6+)", "ExchangeRate-API "],
     github:
       "https://github.com/Gayatri-Vishwa/reactProjects2/tree/main/11CurrencyConverter",
     webapp: "https://react-projects2-fyhm.vercel.app/",
   },
-    {
+  {
     id: 8,
     title: "Typing Speed Test",
     description:
-   "A web app that measures typing speed and accuracy in real-time, providing instant feedback and performance metrics to help users improve their typing skills."
-   ,image: typingcheck,
+      "A web app that measures typing speed and accuracy in real-time, providing instant feedback and performance metrics to help users improve their typing skills.",
+    image: typingcheck,
     tags: ["React.js", "JavaScript (ES6+)", "Inline CSS/JS Styles"],
     github:
       "https://github.com/Gayatri-Vishwa/reactProjects2/tree/main/typingCheck",
     webapp: "https://react-projects2-b5iu.vercel.app/",
   },
-    {
+  {
     id: 9,
     title: " Random password generator",
     description:
@@ -351,7 +365,6 @@ image: ecommerce,
     webapp: "https://js-projects-ee58.vercel.app/",
   },
 
-
   {
     id: 12,
     title: "Random Background Changer",
@@ -364,7 +377,6 @@ image: ecommerce,
       "https://github.com/Gayatri-Vishwa/React-Projects/tree/main/06RandomColor_HAXorRGB",
     webapp: "https://react-projects-tl9o.vercel.app/",
   },
-
 
   {
     id: 13,
@@ -400,7 +412,6 @@ image: ecommerce,
       "https://github.com/Gayatri-Vishwa/JS-Projects/tree/main/BMI%20calculator",
     webapp: "https://js-projects-kappa-silk.vercel.app/",
   },
-
 
   //   {
   //   id: 12,
@@ -479,8 +490,6 @@ export const education = [
   },
 ];
 
-
-
 export const achievements = [
   {
     id: 1,
@@ -489,18 +498,18 @@ export const achievements = [
       "Led a team at the Zonex Hackathon held at SD College of Engineering & Technology, organized by TechMNHub, and secured 2nd position by developing an innovative web-based solution.",
     image: hackathon,
     certificate: hc,
-    tags: ["Year-2026"]
+    tags: ["Year-2026"],
   },
 
- {
-  id: 2,
-  title: "District Topper – CM Felicitation",
-  description:
-    "Honored in Lucknow by the Chief Minister of Uttar Pradesh for achieving top academic performance in the district.",
-  image: cmm,
-  certificate: cmc,
-  tags: ["Year-2019"]
-},
+  {
+    id: 2,
+    title: "District Topper – CM Felicitation",
+    description:
+      "Honored in Lucknow by the Chief Minister of Uttar Pradesh for achieving top academic performance in the district.",
+    image: cmm,
+    certificate: cmc,
+    tags: ["Year-2019"],
+  },
 
   {
     id: 3,
@@ -509,11 +518,6 @@ export const achievements = [
       "Secured 8th position in the university merit list during the Bachelor of Computer Applications program.",
     image: trophy,
     certificate: rank8,
-    tags: ["Year-2024"]
-  }
+    tags: ["Year-2024"],
+  },
 ];
-
-
-
-
-
