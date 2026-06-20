@@ -188,7 +188,7 @@ export const projects = [
     ],
     github:"https://github.com/Gayatri-Vishwa/ChatApp_Frontend",
   
-    // webapp: "https://ai-assistant-frontend-ashen.vercel.app/",
+    webapp: "https://chat-app-frontend-dsux.vercel.app/",
   },
   {
     id: 0,

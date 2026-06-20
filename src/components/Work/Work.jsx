@@ -16,6 +16,7 @@ const Work = () => {
     setSelectedProject(null);
   };
 
+  
   return (
     <section
       id="work"
@@ -191,7 +192,7 @@ const Work = () => {
                   src={selectedProject.image}
                   alt={selectedProject.title}
                   // className="lg:w-full w-[95%] object-contain rounded-xl shadow-2xl"
-                    className="w-[80%] max-h-[280px] object-contain rounded-xl shadow-2xl"
+                    className="w-[90%] max-h-[280px] object-contain rounded-xl shadow-2xl"
                 />
               </div>
               <div className="lg:p-8 p-6">
