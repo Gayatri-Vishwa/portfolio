@@ -48,7 +48,7 @@ function About() {
           {/* Resume Button */}
           <a 
             href="https://drive.google.com/file/d/1rkCOf9hP_W3zI-DyjeNU27Bqrs5qNbwE/view?usp=drivesdk"
-            //href="https://drive.google.com/file/d/1Mj18sJI8l7R84XvnJmcgJvCCfvS5fl-2/view?usp=drivesdk"
+                //href="https://drive.google.com/file/d/1Mj18sJI8l7R84XvnJmcgJvCCfvS5fl-2/view?usp=drivesdk"
           
             target="_blank"
         
@@ -62,7 +62,7 @@ function About() {
               boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
             }}
           >
-            Downloa"d CV
+            Download CV
           </a>
         </div>
 
