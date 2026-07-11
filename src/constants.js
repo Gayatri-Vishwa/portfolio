@@ -98,6 +98,7 @@ export const SkillsInfo = [
       { name: "Express JS", logo: expressjsLogo },
       { name: "MySQL", logo: mysqlLogo },
       { name: "MongoDB", logo: mongodbLogo },
+      { name: "Websocket" },
      // { name: "Firebase", logo: firebaseLogo },
       //{ name: "Appwrite", logo: appwrite },
       // { name: 'PostgreSQL', logo: postgreLogo },
