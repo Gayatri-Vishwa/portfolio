@@ -103,8 +103,7 @@ export const SkillsInfo = [
       // { name: "Appwrite", logo: appwrite },
 
       { name: "Websocket" },
-     // { name: "Firebase", logo: firebaseLogo },
-      //{ name: "Appwrite", logo: appwrite },
+  
 
       // { name: 'PostgreSQL', logo: postgreLogo },
     ],
@@ -121,11 +120,7 @@ export const SkillsInfo = [
       // { name: 'C-Sharp', logo: csharpLogo },
       { name: "JavaScript", logo: javascriptLogo },
       // { name: 'TypeScript', logo: typescriptLogo },
-      { name: "C", logo: cLogo },
-      { name: "C++", logo: cppLogo },
-      { name: "Java", logo: javaLogo },
-     // { name: "Python", logo: pythonLogo },
-      
+    
     ],
   },
   {
