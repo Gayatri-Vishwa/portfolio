@@ -16,6 +16,7 @@ const Education = lazy(() => import("./components/Education/Education"));
 const Contact = lazy(() => import("./components/Contact/Contact"));
 const Footer = lazy(() => import("./components/Footer/Footer"));
 const Achievements=lazy(()=>import("./components/Achievement/Achievements"))
+const Events=lazy(()=>import("./components/CommunityEvents/TechEvents"))
 
 function App() {
 
@@ -41,7 +42,7 @@ function App() {
         <Experience />
            <Achievements/>
         <Work /> //projects
-     
+     <Events/>
         <Education />
         <Contact />
         <Footer />

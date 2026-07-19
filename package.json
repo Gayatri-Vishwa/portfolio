@@ -21,6 +21,7 @@
     "react-simple-typewriter": "^5.0.1",
     "react-toastify": "^11.0.5",
     "react-typing-effect": "^2.0.5",
+    "swiper": "^14.0.5",
     "tailwindcss": "^4.1.16"
   },
   "devDependencies": {

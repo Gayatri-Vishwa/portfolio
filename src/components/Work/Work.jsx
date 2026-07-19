@@ -47,54 +47,6 @@ const Work = () => {
             onClick={() => handleOpenModal(project)}
             className="border border-white bg-gray-900 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden cursor-pointer hover:shadow-purple-500/50 hover:-translate-y-2 transition-transform duration-300"
           >
-            {/* <div className="p-4">
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-48 object-cover rounded-xl"
-              />
-              <div className="flex justify-between items-start m-2">
-                <h3 className="text-2xl font-bold text-white">
-                  {project.title}
-                </h3>
-              </div>
-               <div className="p-6">
-              <div className="flex gap-3 text-white text-xl">
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={(e) => e.stopPropagation()}
-                  className="hover:text-purple-500 transition"
-                >
-                  <FaGithub />
-                </a>
-
-                <a
-                  href={project.webapp}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={(e) => e.stopPropagation()}
-                  className="hover:text-purple-500 transition"
-                >
-                  <FiExternalLink />
-                </a>
-              </div>
-              <p className="text-gray-500 mb-4 pt-4 line-clamp-3">
-                {project.description}
-              </p>
-              <div className="mb-4">
-                {project.tags.map((tag, index) => (
-                  <span
-                    key={index}
-                    className="inline-block bg-[#251f38] text-xs font-semibold text-purple-500 rounded-full px-2 py-1 mr-2 mb-2"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </div>
-            </div> */}
            
 <div className="p-4">
   <img
