@@ -66,16 +66,16 @@ function TechEvents() {
           {/* Left */}
 
           <div>
-            <span className="inline-block bg-purple-600 px-4 py-2 rounded-full font-semibold">
+            <span className="inline-block bg-purple-600 text-xs md:text-sm px-2 md:px-4 py-2 rounded-full font-semibold">
               July 2026
             </span>
 
-            <h3 className="text-3xl font-bold text-white mt-6">
+            <h3 className="text-xl md:text-3xl font-bold text-white mt-6">
               Grafana & Friends Delhi Meetup
             </h3>
 
             <p className="flex items-center gap-2 text-purple-400 mt-2">
-              <FaLocationDot className="text-purple-500 text-lg" />
+              <IoLocationSharp className="text-purple-500 text-lg" />
               <span>
                 <span className="font-semibold text-white">Microsoft</span>{" "}
                 Office, Noida

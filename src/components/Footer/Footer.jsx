@@ -17,7 +17,7 @@ const Footer = () => {
           </p>
 
           <p className="text-[11px] sm:text-xs text-gray-500">
-            MERN Stack Developer | MCA Student
+           FULL Stack MERN  Developer 
           </p>
         </div>
       </div>
