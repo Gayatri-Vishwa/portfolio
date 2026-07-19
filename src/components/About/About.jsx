@@ -46,9 +46,10 @@ function About() {
 
 
           {/* Resume Button */}
-          <a
-            // href="https://drive.google.com/file/d/1-ktPyIdI3DQ27qDYCyKSh7dXFSKc-UH6/view?usp=drivesdk"
-            href="https://drive.google.com/file/d/1sox8QwZHIyglVq_HITAiyKErTVyntpYM/view?usp=drivesdk"
+          <a  
+            href="https://drive.google.com/file/d/1c9G3BqoyzLDNIF8z1Hjd7kwWaX0efEPG/view?usp=drivesdk"
+            
+             
             target="_blank"
         
   aria-label="Download Resume"

@@ -98,21 +98,34 @@ export const SkillsInfo = [
       { name: "Express JS", logo: expressjsLogo },
       { name: "SQL", logo: mysqlLogo },
       { name: "MongoDB", logo: mongodbLogo },
+
       // { name: "Firebase", logo: firebaseLogo },
       // { name: "Appwrite", logo: appwrite },
+
+      { name: "Websocket" },
+     // { name: "Firebase", logo: firebaseLogo },
+      //{ name: "Appwrite", logo: appwrite },
+
       // { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
   {
     title: "Languages",
     skills: [
+
       { name: "C", logo: cLogo },
       { name: "C++", logo: cppLogo },
       { name: "Java", logo: javaLogo },
       // { name: "Python", logo: pythonLogo },
+
       // { name: 'C-Sharp', logo: csharpLogo },
       { name: "JavaScript", logo: javascriptLogo },
       // { name: 'TypeScript', logo: typescriptLogo },
+      { name: "C", logo: cLogo },
+      { name: "C++", logo: cppLogo },
+      { name: "Java", logo: javaLogo },
+     // { name: "Python", logo: pythonLogo },
+      
     ],
   },
   {
